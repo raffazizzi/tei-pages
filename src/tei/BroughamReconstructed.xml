@@ -1,0 +1,3298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_se-brown_mielke.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../tei_se-brown_mielke.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en" xml:id="reconstructed">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">COLUMBUS. Reconstructed by Act of Congress and John
+                    Brougham</title>
+                <author>John Brougham</author>
+                <editor>Laura L. Mielke</editor>
+                <editor>Rachel Linnea Brown</editor>
+                <respStmt>
+                    <resp>Transcription, editing, and encoding</resp>
+                    <name>Laura L. Mielke</name>
+                    <name>Rachel Linnea Brown</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</authority>
+                <address>
+                    <addrLine>http://www.scholarlyediting.org</addrLine>
+                </address>
+                <publisher>Association for Documentary Editing</publisher>
+                <date>2022</date>
+                <idno type="file">mdl</idno>
+                <idno type="edition">mdl</idno>
+                <availability>
+                    <p>Scholarly Editing: The Annual of the Association for Documentary Editing is
+                        freely distributed by the Association for Documentary Editing and licensed
+                        under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                        International License.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+                    Editing</title>
+                <respStmt>
+                    <resp>Co-Editor in Chief</resp>
+                    <name>Noelle Baker</name>
+                    <name>Kathryn Tomasek</name>
+                </respStmt>
+                <respStmt>
+                    <resp>ADE Director of Publications and Consulting Editor</resp>
+                    <name>Silvia Glick</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Managing Editor</resp>
+                    <name>Robert Riter</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Technical Editor</resp>
+                    <resp>Micro Editions Editor</resp>
+                    <name>Raffaele Viglianti</name>
+                </respStmt>
+                <idno type="vol">39</idno>
+                <idno type="ISSN">2167-1257</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Princeton</settlement>
+                        <repository>Princeton Rare Books and Special Collections, William Seymour
+                            Theatre Collection</repository>
+                        <idno type="callno">Source copy consulted: TC023 (Playbooks Collection) Box
+                            18</idno>
+                        <msName>Promptbook for Columbus Reconstructed</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Copy of 1859 edition of Columbus, El Filibustero, interleaved with lined
+                            paper and covered with stiffened linen. Alterations and additions appear
+                            in pencil and in at least two different inks on both the printed and the
+                            interleaved pages. Brougham's signture appears as part of the imprimatur
+                            and on the main title page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text type="drama">
+        <front xml:id="BR_front">
+    <pb n="title page" facs="3"/>
+    <titlePage>
+        <imprimatur rend="center">
+            <hi rend="underline">Columbus <lb/>Reconstructed <lb/>By <lb/>Act of Congress</hi>
+            <lb/>and <lb/>John Brougham </imprimatur>
+        <pb/>
+        <pb n="p.1" facs="6"/>
+        <docTitle>
+            <titlePart>THE MINOR DRAMA. <lb/>The Acting Edition. <lb/>No. CXLV.</titlePart>
+            <lb/>
+            <titlePart type="main">COLUMBUS <lb/>
+                <add>Reconstructed!</add>
+                <del>EL FILIBUSTERO!!</del>
+            </titlePart>
+            <lb/>
+            <lb/>
+            <titlePart type="sub">A new and audaciously original historico-plagiaristic, ante- <lb/>
+                national, pre-patriotic, and omni-local confusion <lb/> of circumstances, running
+                through <lb/> two acts and four centuries.</titlePart>
+        </docTitle>
+
+
+        <byline> BY <docAuthor>JOHN BROUGHAM</docAuthor>, COMEDIAN. </byline>
+
+        <docEdition>Entered according to Act of Congress, in the year One Thousand Eight Hundred and
+            Fifty Seven by JOHN BROUGHAM, in the Clerk’s Office of the District Court of the United
+            States, for the Southern District of New York. <lb/> AS PERFORMED AT BURTON’S THEATRE,
+            DECEMBER, 1857</docEdition>
+
+        <docImprint> NEW YORK: <lb/> SAMUEL FRENCH, <lb/> 122 Nassau Street, (Up Stairs.) <lb/>
+        </docImprint>
+
+    </titlePage>
+
+    <div>
+        <pb n="p.1i" facs="5"/>
+
+        <addSpan spanTo="#A01"/>
+        <stage type="mixed">
+            <l rend="center">Order in which the States are arranged</l>
+            <cb n="1"/>
+            <list>
+                <head>Section 1st</head>
+                <item>1 New York</item>
+                <item>2 Pennsylvanie</item>
+                <item>3 Massachusetts</item>
+                <item>4 New Jersey</item>
+                <item>5 Main</item>
+                <item>6 New Hampshire</item>
+                <item>7 Vermont</item>
+                <item>8 Connecticut</item>
+                <item>9 Calafornia</item>
+                <item>10 Maryland</item>
+                <item>11 Deleware</item>
+                <item>12 Rhode Island</item>
+            </list>
+            <list>
+                <head>Secon 2nd</head>
+                <item>1 Ohio</item>
+                <item>2 Indiana</item>
+                <item>3 Illinois</item>
+                <item>4 Michigan</item>
+                <item>5 Wisconsin</item>
+                <item>6 West Virginia</item>
+                <item>7 Oregon</item>
+                <item>8 Iowa</item>
+                <item>9 Kansas</item>
+                <item>10 Nevada</item>
+                <item>11 Minnesota</item>
+                <item>12 Missuri</item>
+            </list>
+            <cb n="2"/>
+            <list>
+                <head>Section 3rd</head>
+                <item>1 South Carolina</item>
+                <item>2 Mississippi</item>
+                <item>3 North Carolina</item>
+                <item>4 Virginia</item>
+                <item>5 Texas</item>
+                <item>6 Kentucky</item>
+                <item>7 Tennessee</item>
+                <item>8 Alabama</item>
+                <item>9 Arkansas</item>
+                <item>10 Florida</item>
+                <item>11 Georgia</item>
+                <item>12 Louisiana</item>
+            </list>
+            <list>
+                <item>1 &amp; 3 Sections State from R</item>
+                <item>2 " " " L</item>
+            </list>
+        </stage>
+        <anchor xml:id="A01"/>
+
+        <pb n="p.2" facs="7"/>
+        <castList>
+            <head rend="center"> DISTRIBUTION OF CHARACTERS, <lb/> GOOD, BAD AND INDIFFERENT. </head>
+
+            <castItem>
+                <role>FERDINAND, </role>
+                <roleName>King of Arragon</roleName>
+                <roleDesc>—an <del>aggressive</del><add>arrogant</add> progressive monarch,
+                    of rather a speculative turn, <del>with a good many irons on the fire, besides
+                        an eye on Castile,</del>
+                </roleDesc>
+                <actor>Mr. Mark Smith.</actor>
+            </castItem>
+
+            <castItem>
+                <role><del>JUAN RODERIGUES</del><add>Cardinal</add> DE FONSECA, </role>
+                <del><roleName>Archdeacon of Seville</roleName></del>, <roleDesc>keeper of the
+                    king’s conscience, <del>[a handsome sinecure,]</del> and court spiritual adviser
+                    generally, therefore, naturally opposed to Columbus and the spread of knowledge, </roleDesc>
+                <actor>Mr. Holman.</actor>
+            </castItem>
+
+            <castItem>
+                <role>FERNANDO DE TALAVERA,</role>
+                <roleDesc>an old picture, very much improved by time, </roleDesc>
+                <actor>Mr. Barrett.</actor>
+            </castItem>
+
+            <castItem>
+                <role>LUIS DE ST. ANGEL, </role>
+                <roleDesc>a contented office-holder pursuing the even tenor of his way, </roleDesc>
+                <actor>Mr. Alleyne.</actor>
+            </castItem>
+
+            <castItem>
+                <role>ALONZO DE QUINTANELLA, </role>
+                <roleDesc>a courtier of much lower note, </roleDesc>
+                <actor>Mr. Gledhill.</actor>
+            </castItem>
+
+            <castItem>
+                <role>DON CHRISTOVAL COLON alias COLUMBUS, </role>
+                <roleDesc>a clairvoyant voyager, whose filibustering expedition gave rise <del>at
+                        the time </del>to a world of speculation, </roleDesc>
+                <actor>Mr. Brougham.</actor>
+            </castItem>
+
+            <castItem>
+                <role>DIEGO, </role>
+                <roleDesc>a semicolon among the <del>king’s</del><add>Queens</add> pages, </roleDesc>
+                <actor>Miss Orten.</actor>
+            </castItem>
+
+
+            <delSpan spanTo="#D01"/>
+            <castGroup>
+                <head>Distinguished members of the Historical Society, now meeting together for the
+                    first time. </head>
+                <castItem>
+                    <role>VASCO NUNEZ, </role>
+                    <actor>Mr. Hurley.</actor>
+                </castItem>
+                <castItem>
+                    <role>HERNANDO CORTEZ, </role>
+                    <actor>Mr. Atkins.</actor>
+                </castItem>
+                <castItem>
+                    <role>AMERIGO VESPUCCI, </role>
+                    <actor>Mr. Paul.</actor>
+                </castItem>
+                <castItem>
+                    <role>PONCE DE LEON, </role>
+                    <actor>Mr. Lawson.</actor>
+                </castItem>
+            </castGroup>
+            <anchor xml:id="D01"/>
+
+            <castGroup>
+                <head>A noisy crew of mutinous <del>Seapoys</del><add>mariners</add>.</head>
+                <castItem>
+                    <role>SANCHO RUIS, </role>
+                    <actor>Mr. McRae.</actor>
+                </castItem>
+                <castItem>
+                    <role>PEDRO NINO, </role>
+                    <actor>Mr. Bishop.</actor>
+                </castItem>
+                <castItem>
+                    <role>BARTOLOMEO, </role>
+                    <actor>Mr. Hayes.</actor>
+                </castItem>
+                <castItem>
+                    <role>JUAN PEREZ, </role>
+                    <actor>Mr. Bruce.</actor>
+                </castItem>
+                <castItem>&amp;c., &amp;c.</castItem>
+            </castGroup>
+
+            <castItem>
+                <role>ISABELLA, </role>
+                <roleDesc>wife of Ferdinand, possessor of half-a-crown by marriage rite, and a whole
+                    one by right of having to carry its weight on her own shoulders, </roleDesc>
+                <actor>Mrs. Holman.</actor>
+            </castItem>
+
+            <castItem>
+                <role>COLUMBIA, </role>
+                <roleDesc>a national debutante, her first appearance on any stage, </roleDesc>
+                <actor>Mrs. L. W. Davenport.</actor>
+            </castItem>
+
+            <castItem>
+                <role>LITTLE MISS <del>KANSAS,</del><add>Colorado,</add></role>
+                <roleDesc><del>a discordant element</del><add>rather precocious</add>, </roleDesc>
+                <actor>Miss Taylor.</actor>
+            </castItem>
+
+            <addSpan spanTo="#A02"/>
+            <castItem>
+                <role>Demon of Discord, <del>a <add>particular </add>secessolitionist</del></role>
+            </castItem>
+
+            <castItem>
+                <role>Manhatta</role><ptr target="#note202" n="202"/>
+            </castItem>
+
+            <castItem>
+                <role>Massachutia</role><ptr target="#note203" n="203"/>
+            </castItem>
+
+            <castItem>
+                <role>Keystonia</role><ptr target="#note204" n="204"/>
+            </castItem>
+
+            <anchor xml:id="A02"/>
+
+            <castItem>
+                <role>Members of the Reception Committee, Aldermen, Discontented Politicians,
+                    Independent Voters, and other natural curiosities by </role>
+                <actor>Competent Representatives.</actor>
+            </castItem>
+
+            <castItem>
+                <role>Full-grown States, Juvenile Territories, &amp;c., by </role>
+                <actor>an Energetic Host of Auxiliaries.</actor>
+            </castItem>
+        </castList>
+
+        <pb n="p.2i" facs="8"/>
+        <addSpan spanTo="#A03"/>
+        <stage type="mixed">
+            <list>
+                <head rend="center">
+                    <hi rend="underline">Properties</hi><ptr target="#note201" n="201"/>
+                </head>
+                <item>
+                    <hi rend="center"><hi rend="underline">Act 1 Scene 1</hi></hi>
+                    <p>Sceptre for King - 4 Gold and Silver wands for Pages. Pedlars Tray &amp;
+                        strap to go round neck on which are Trinkets maps &amp; stationery for
+                        Columbus. Box with papers of candy imitation cigars &amp; pop corn for Diego
+                        (cover to Box with hinges) Twelve Bed candlesticks for characetrs. Throne
+                        covered &amp; 2 State Chairs on.</p>
+                </item>
+                <item>
+                    <hi rend="center"><hi rend="underline">Scene 2nd</hi></hi>
+                    <p>Goblet of whiskey punch, piece of lemon &amp; spoon and chair ready L1.E, for
+                        Columbus. Night Cap &amp; gown R.1.E. ready R1E for King. Silk American Flag
+                        on Staff for Columbia</p>
+                </item>
+                <item>
+                    <hi rend="center"><hi rend="underline">Scene 3</hi></hi>
+                    <p>Two Boat hooks on. Chinese lanterns<ptr target="#note205" n="205"/> –
+                            Transparencies,<ptr target="#note206" n="206"/>
+                        <hi rend="underline">"Columbus for Mayor”</hi>
+                        <hi rend="underline">“Sound on the Goose”</hi><ptr target="#note207" n="207"/>
+                        <hi rend="underline">“Columbus for Alderman”</hi>
+                        <hi rend="underline">“Columbus for Governor”</hi>
+                        <hi rend="underline">“Columbus for President”</hi>
+                        <hi rend="underline">“Columbus for Everything”</hi>
+                        <hi rend="underline">“Try Columbus Hair Dye”</hi>
+                        <hi rend="underline">“Columbus Shirt Collars”</hi>
+                        <hi rend="underline">“Columbus neck ties”</hi>
+                        <hi rend="underline">“Columbus pickles”</hi><ptr target="#note208" n="208"/>
+                        – Large bundle of greens Large pot of pork &amp; beans. 2 large pumpkin
+                        pies. 2 Rabbits ticked.<ptr target="#note209" n="209"/> Barrel, both heads
+                        marked “Solon Shingles.”<ptr target="#note210" n="210"/> Long address for
+                        Committee 4 yards long written on. Telescope. Swords for mutineers. 6 swords
+                        for sailors. Large hat for Citizen</p>
+                </item>
+                <item>
+                    <hi rend="center"><hi rend="underline">Act 2 Scene 1</hi></hi>
+                    <p>Long Telegraphic despatch<ptr target="#note211" n="211"/> for Diego.
+                            <del>24</del>36 Shields <del>24</del>36 Javlins <del>24</del>36 Helmets
+                        for the States. Shield Javlin and Helmet for Colorado. Yellow fire<ptr target="#note212" n="212"/> in pans R &amp; L 2.E. to end scene –
+                        Gong.</p>
+                </item>
+                <item>
+                    <hi rend="center"><hi rend="underline">Scene 2</hi></hi>
+                    <p>Toy Egg<ptr target="#note213" n="213"/> L1E on Salver readt for Diego.</p>
+                    <figure>
+                        <figDesc>pencil drawing of a column with circle on top. Labeled
+                            18.F.</figDesc>
+                    </figure>
+                </item>
+                <item>
+                    <hi rend="center"><hi rend="underline">Scene 3rd</hi></hi>
+                    <p>Column with Globe for Columbus on platform back. Fire Box with red fire and
+                        slow match at footlights ready for tender to light at cue. Large Bible for
+                        Quaker, Piece of <add>^</add><add>Red</add> Cloth for Wm. Penn<ptr target="#note214" n="214"/>
+                        <del>Black</del> Sword and <add>^</add><add>blk</add> Belt &amp; scroll
+                        written “Constitution” for Washington. Sword and Belt for Miles
+                            Standish.<ptr target="#note215" n="215"/> Two Laurel wreaths for
+                        Columbia.</p>
+                </item>
+            </list>
+        </stage>
+        <anchor xml:id="A03"/>
+
+        <pb n="p.3i" facs="9"/>
+        <addSpan spanTo="#A04"/>
+        <list>
+            <item rend="center">2 Pages K Q 2 pages</item>
+            <item rend="center">8 Ladies 8 Lords</item>
+            <item rend="center"> 8 Lords Cardinal Fernando 8 Ladies</item>
+        </list>
+        <list>
+            <item>King. <hi rend="underline">Sceptre</hi></item>
+            <item>Queen.</item>
+            <item>Cardinal.</item>
+            <item>Fernando.</item>
+            <item>4 Pages. <hi rend="underline">4 Wands</hi></item>
+            <item>All the Courtiers.</item>
+        </list>
+        <anchor xml:id="A04"/>
+    </div>
+
+</front>
+
+        <body>
+            <div type="act" xml:id="BR_Act1_Scene1">
+    <pb n="p.3" facs="10"/>
+    <head rend="center">ACT I.</head>
+    <div type="scene">
+        <head rend="center">SCENE I.<stage type="setting">—<hi rend="italics">Hall of
+                    Audience in King Ferdinand’s Palace.</hi> KING, QUEEN, <hi rend="italics">and an
+                    entire pack of court cards, discovered.</hi></stage></head>
+        <floatingText>
+            <body>
+                <div type="song">
+                    <head rend="center">COMPLIMENTARY CHORUS,[<title type="tune">"Gustavus,”</title>]<stage type="business" rend="italics">by the
+                            courtiers, enthusiastic and ecomiastic, as in duty bound.</stage></head>
+                    <sp>
+                        <lg type="verse">
+                            <l rend="indent2">Hail! oh, king of Arragon!</l>
+                            <l rend="indent2">Reign! oh, princely paragon!</l>
+                            <l rend="indent2">Down upon your marrowbone, <add><stage type="location">all the Lords kneel R.L.S.</stage></add></l>
+                            <l rend="indent3">Long live the king!</l>
+                            <l rend="indent2">Monarch mightier is he, sir,</l>
+                            <l rend="indent2">Than Joe Smith or Julius Cæsar,</l>
+                            <l rend="indent2">Brigham Young or Nebuchudnezzar,</l>
+                            <l rend="indent3">Long live the king!</l>
+                            <l rend="indent2">And hail to Isabella, too,</l>
+                            <l rend="indent2">For she’s a right good fellow, too,</l>
+                            <l rend="indent2">And a right good tune to bellow to,</l>
+                            <l rend="indent3">Is long live the queen!</l>
+                            <l rend="indent2">She’s fairer than the fairest fairy,</l>
+                            <l rend="indent2">Sweeter than the Scottish Mary,</l>
+                            <l rend="indent2">Nymph or Nereiad there’s n’ary</l>
+                            <l rend="indent3">One like our queen.</l>
+                        </lg>
+                    </sp>
+                </div>
+            </body>
+        </floatingText>
+        <stage type="business">
+            <add>end of <hi rend="underline">music</hi>
+                <hi rend="underline">Shouts.</hi></add> [<hi rend="italics">Cheers from the
+                administration.</hi>
+        </stage>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>This cheering fire, defenders of the great,</l>
+                <l>Is grateful to our royal tympanum, of late</l>
+                <l>Elated by our victories among</l>
+                <l>Those mongrel Moors, to hear our praises sung</l>
+                <l>We’ve had no time; but now the wars are ended,</l>
+                <l>And in the usual way, our faith defended,</l>
+                <l>That is by slaying every slavish minion</l>
+                <l>Who dares to differ with us in opinion.</l>
+
+                <pb n="p.4" facs="11"/>
+                <pb n="p.4i" facs="12"/>
+                <l>Although by proxy those great deeds were done,</l>
+                <l>We think we’ve earned the right to have some fun;</l>
+                <l>So loud let every office-holder shout,</l>
+                <l>Or else we’ll send them to the right about.</l>
+            </lg>
+            <stage type="business" rend="right">[<hi rend="italics">The several sticks shout
+                    accordingly.</hi></stage>
+            <lg>
+                <l>Louder, you puddin’ heads, aldermen and all, <add><stage type="business"><hi rend="underline">Shout.</hi></stage></add></l>
+                <l>Or else our city hall we’ll overhaul,</l>
+                <l>And cut your heavy jobs and contracts down,</l>
+                <l>And then we’ll see who’ll represent the town.</l>
+                <l>Tell us what news is stirring in the city? <add><stage type="business"><hi rend="underline">Shout. Rises and comes down with Queen (<hi rend="underline">arrives with Queen</hi>)</hi></stage></add></l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>So please you, sire, the Vigilance Committee</l>
+                <l>A foolish foreigner this day has found,</l>
+                <l>Who swears, confound him, that the world is round, <add><stage type="business"><hi rend="underline">Shout. Astonished</hi></stage></add></l>
+                <l>And swings, on what the fellow calls its <emph>axis</emph>,</l>
+                <l part="Y">Just once a year.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F">He’s thinking of the taxes.</l>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>It taxes both credulity and patience</l>
+                <l>To listen to the mountebank’s relations.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <lg>
+                <l>Perhaps he’s right—let’s ask him here to sup,</l>
+                <l part="Y">There may be something in—</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F" rend="indent4">My love, shut up.</l>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <l part="Y">But that’s not all he says.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent4">I want to know.</l>
+                <l part="Y">What does he say?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l part="F" rend="indent3">He says, my liege, below</l>
+                <l part="Y">There is a corresponding half-world—</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent5">We know better </l>
+                <l>For did it correspond we’d have a letter. <add><stage type="business">Laughs</stage></add></l>
+                <l>We’ve nothing from that latitude, in fine</l>
+                <l>We hav’n’t had an equinoctial line— <add><stage type="business">Laughs</stage></add></l>
+                <l part="Y">So it’s all bosh.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <lg>
+                <l part="F" rend="indent3">‘Twould be as well to hear</l>
+                <l part="Y">The man himself.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F" rend="indent3">Now, don’t you interfere.</l>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>And more than this—your majesty will laugh,</l>
+                <l>Of course—the fool asserts, the other half</l>
+                <l>Has mountains, vallies, seas, just like our own;</l>
+                <l part="Y">With men and women—</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent4">What, turned upside down! <add><stage type="business">Laughs</stage></add></l>
+                <l>Strange kind of man, to think mankind, like flies,</l>
+                <l>Could in such strange position stand—he lies.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>But, above all, the chap maintains that gold</l>
+                <l>And precious gems lie there in heaps untold.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <l part="Y">What, diamonds?</l>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l part="F" rend="indent3">And pearls of countless price,</l>
+                <l part="Y">Rubies and amethysts.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <lg>
+                <l part="F" rend="indent3">Take my advice</l>
+                <l part="Y">And look into this matter.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent4">You look out;</l>
+                <l>Bell, hold your tongue—we know what we’re about.</l>
+
+                <pb n="p.5i" facs="13"/>
+                <pb n="p.5" facs="14"/>
+                <l>Let some one summon here this foreign catiff</l>
+                <l>Who thus presumes to know more than a native.</l>
+                <l part="Y">Hast heard his name?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fernando de Talevera.</speaker>
+            <l part="I" rend="indent2">Columbus.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="M" rend="indent5">That’s a dove.</l>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <lg>
+                <l part="F">I like it—’tis the type of peace and love—.</l>
+                <l part="Y">You called me so at first.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent4">Be quiet, do;</l>
+                <l>Don’t talk, my dove, until you hea<del>d</del><add>r</add> your
+                    <emph>coo</emph>.</l>
+                <l part="Y">Who is this pigeon?</l>
+            </lg>
+        </sp>
+
+        <addSpan spanTo="#A05"/>
+        <stage>Columbus. <hi rend="underline">Pedlers tray with</hi> trinkets &amp;c. <lb/> Diego.
+                <hi rend="underline">Box with Pop-corn</hi><ptr target="#note216" n="216"/>
+            <lb/> Twelve candelsticks ready R.3.E. </stage>
+        <anchor xml:id="A05"/>
+        <sp>
+            <speaker>Fernando.</speaker>
+            <lg>
+                <l part="F" rend="indent3">I saw him hawking</l>
+                <l>Some maps and charts; sad and fatigued with walking,</l>
+                <l>He rested on a convent step—his son</l>
+                <l>Lay near him, hunger-pinched and wan</l>
+                <l>With weakness—yet the heartless crowd passed on,</l>
+                <l>Even without the tribute of a sigh.</l>
+                <l>At length, a poor friar, himself not overfed,</l>
+                <l>Gave to the wanderers a loaf of bread.</l>
+                <l>The gift was timely, yet the proud man’s soul,</l>
+                <l>I plainly saw, revolted at the dole,</l>
+                <l>Although ‘twas thankfully received. He woke</l>
+                <l>The famine-stricken boy, and quickly broke</l>
+                <l>The loaf in two—one half the lad received,</l>
+                <l>And with such ravenous haste—it deeper grieved</l>
+                <l>The sorrowing man. I read his anxious fears;</l>
+                <l>I saw the dry crust moistened with his tears,</l>
+                <l part="Y">And turned away dimsighted and heart-sick.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F">I’ll take my oath that friar was a brick.</l>
+                <l>He’s poor, it seems, despite of all his pains—</l>
+                <l>Then, ten to one, the fellow’s cursed with brains.</l>
+                <l>If so, I’ll steal ‘em, for mere brains <emph>alone</emph> are</l>
+                <l>Seldom any use to the first owner.</l>
+            </lg>
+            <stage type="business" rend="right"><add>Laughing 2EL</add> [<hi rend="italics">Laughing
+                    heard without <add>L2E</add></hi></stage>
+        </sp>
+
+        <delSpan spanTo="#D22" rend="strikethrough"/>
+        <floatingText>
+            <body>
+                <div type="song">
+                    <head rend="center">CHORUS.<stage type="setting" rend="center"> [<hi rend="italics">Outside.</hi>]</stage></head>
+                    <head rend="center"><hi rend="italics">Laughing Chorus,</hi>
+                        <title type="tune">"Der Freischutz."</title></head>
+                    <lg type="verse">
+                        <l rend="indent2">Such madman’s words, how shall we style ‘em?</l>
+                        <l rend="indent2">The ass has broke from some asylum;</l>
+                        <l rend="indent2">A world across the western sea!</l>
+                        <l rend="indent2">‘Twon’t do, Columbus—no, siree.</l>
+                    </lg>
+                </div>
+
+                <div type="song">
+                    <head rend="center"><foreign>Ecco Italiani,</foreign>
+                        <title type="tune">"Trovatore."</title></head>
+                    <lg type="verse">
+                        <l rend="indent3">Scizzerrere!</l>
+                        <l rend="indent3">Oh fel magia mosbio</l>
+                        <l rend="indent3">As a marchera, che si won’t returno,</l>
+                        <l rend="indent3">Scizzerere!</l>
+                        <l rend="indent3">Ti himup to some trio,</l>
+                        <l rend="indent3">Predo, for here he cant Soggiurno!</l>
+                    </lg>
+
+                </div>
+
+                <pb n="p.6" facs="15"/>
+                <pb n="p.6i" facs="16"/>
+                <div type="song">
+                    <head rend="center"><name>Columbus.</name>
+                        <stage type="location" rend="center">[<hi rend="italics">Without.</hi>]</stage></head>
+                    <lg type="verse">
+                        <l rend="indent3">Bi guingo, lam orti the crowdo,</l>
+                        <l rend="indent3">Astar, nota onei se nir.</l>
+                        <l rend="indent3">Ah mi tiseri—</l>
+                        <l rend="indent3">Ah mi tiseri Mustay.</l>
+                        <l rend="indent3">Hadio hadio buta dimo</l>
+                        <l rend="indent3">To geta Sangarie.</l>
+                    </lg>
+                </div>
+
+                <div type="song">
+                    <head rend="center"><hi rend="italics">Chorus.</hi></head>
+                    <lg type="verse">
+                        <l rend="indent3">Du tell, du tel guist erim</l>
+                        <l rend="indent3">The luni supposes notin.</l>
+                        <l rend="indent3">Scizzerere!</l>
+                        <l rend="indent3">De te nim ti Sonli ad ute uno.</l>
+                    </lg>
+                </div>
+
+                <div type="song">
+                    <head rend="center"><name>Columbus.</name></head>
+                    <l rend="indent3">De te nim O damit, de te nim O no.</l>
+                </div>
+            </body>
+        </floatingText>
+        <anchor xml:id="D22"/>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Go, bring him in<del>—</del> and now we’ll pump him dryer <add><stage type="mixed"> Exeunt 4 pages L.2.E.</stage></add></l>
+                <l>Than the dry crust he got from that same friar.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <l part="Y" rend="indent3">Unworthy thought.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent4">Bell, if there’s any tin,</l>
+                <l>You’ll tintinnabulate—I mean ring in.</l>
+                <l>If there’s a chance, the main one you won’t lose,</l>
+                <l>But caution and precaution both we’ll use.</l>
+                <l>We’ll see this mariner—if aught accrues</l>
+                <l>From his projected cruise, we won’t reject it,</l>
+                <l>But with the glory of our reign connect it.</l>
+                <l>By our own royal judgment we’ll abide,</l>
+                <l>And if we find him slippery, let him slide.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>I hope your majesty will deign to pause.</l>
+                <l>Before this man, who scouts our mundane laws,</l>
+                <l>You thus encourage—our estate it shocks</l>
+                <l>That he should trifle with the orthodox.</l>
+                <l part="Y">The church has <hi rend="underline">settled</hi> that the <hi rend="underline">world is flat.</hi></l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F">There cannot be the slightest doubt of that.</l>
+                <l part="Y">He comes—don’t fear, we’ll find out his <hi rend="underline">intents.</hi>
+                    <add><stage>Music</stage></add></l>
+            </lg>
+        </sp>
+
+        <stage type="entrance" rend="center"><hi rend="italics">Enter</hi> COLUMBUS, <hi rend="italics">peddling stationery <add> &amp; Diego 2.E.L., with cigar
+                box</add>.</hi>
+            <lb/>
+            <add>Re-Enter 2.E.L.H. 4 pages go to former places</add>
+        </stage>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="F">Twenty-five maps of the world for four cents.</l>
+        </sp>
+
+        <addSpan spanTo="#A46"/>
+        <sp>
+            <speaker>Diego</speaker>
+            <l>Pop corn ginger nuts<ptr target="#note217" n="217"/> and apples. <stage type="business"><hi rend="underline">goes around the crowd</hi></stage></l>
+        </sp>
+
+        <anchor xml:id="A46"/>
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Who are you, stranger, that with daring speech</l>
+                <l>A new cosmogany presume to teach?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="Y">A ci-devant poor flat-boat captain, sire.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F">Flat broke ‘twould seem to judge from your attire.</l>
+                <l part="Y">Go on, unfold yourself, pay out.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l part="F">My lord, I will.</l>
+                <l>Will you oblige me with the chord? <stage type="business" rend="right">[<hi rend="italics">To leader</hi></stage></l>
+            </lg>
+        </sp>
+
+        <pb n="p.7i" facs="17"/>
+        <pb n="p.7" facs="18"/>
+        <floatingText>
+            <body>
+                <div type="song">
+                    <head rend="center">BIOGRAPHIC CANTATA.</head>
+                    <head rend="center"><title type="tune">Introductory Recitative.</title></head>
+                    <lg type="verse">
+                        <l rend="indent2">Mio simplissima storio dost thou requesto,</l>
+                        <l rend="indent2">Oh give earo unto mi relazioni,</l>
+                        <l rend="indent2">But if this foreign lingo, you cannot digesto</l>
+                        <l rend="indent2">I’ll try the purissimo Anglo Saxoni.</l>
+                    </lg>
+                </div>
+
+                <div type="song">
+                    <head rend="center"><title type="tune">Aria Familiaria.</title></head>
+                    <lg type="verse">
+                        <l rend="indent1">My name it is Columbus, I was born in Genoa</l>
+                        <l rend="indent2">Of poor but honest parents, so the story always goes.</l>
+                        <l rend="indent1">My father was a mariner, and he mar-ri-ed my mother
+                            there,</l>
+                        <l rend="indent2">And I was the offspring as you may readily suppose.</l>
+                        <l rend="indent1">Sweet infancy’s days when the brain very little
+                                <emph>wit</emph> is in,</l>
+                        <l rend="indent2">As is mostly the case passed unconciously bye,</l>
+                        <l rend="indent1">Oh my parent’s expected I’d become a steady sober
+                            citizen,</l>
+                        <l rend="indent2">But I was bound to be a sailor boy, by jingo, or die.</l>
+                        <lb/>
+                        <l rend="indent1">For many a long year I have plough’d the wild ocean,</l>
+                        <l rend="indent2">And many strange notians and natives have seen,</l>
+                        <l rend="indent1">But now in my head I have got a sort of notion</l>
+                        <l rend="indent2">That there’s some place else somewhere that aint been seen
+                            yet.</l>
+                        <l rend="indent1">To find this place out is the only thing I live for,</l>
+                        <l rend="indent2">Ambition and fame in that single path lie</l>
+                        <l rend="indent1">Just to help me along some assistance pray give, for</l>
+                        <l rend="indent2">I’m bound to find Columbia, by jingo, or die!</l>
+                    </lg>
+                </div>
+            </body>
+        </floatingText>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="Y">What <del>is’t</del><add>have</add> you<del>v’e</del> got within your silly
+                brain?</l>
+        </sp>
+
+        <addSpan spanTo="#A47"/>
+        <sp>
+            <speaker>Diego.</speaker>
+            <l>Pop corn!</l>
+        </sp>
+
+        <anchor xml:id="A47"/>
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="I">A Main land, sire, there is beyond the Main.</l>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <l part="Y">Let it remain there.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent4">Stop a minute—</l>
+                <l>We’ll hear him talk, there may be something in it.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <l part="Y">Pearls and rubies grow there, we are told?—</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F">Now do be quiet;—aye, and lots of gold.</l>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>I’m almost weary, sire, of telling o’er</l>
+                <l>To Princes all the gifts I have in store,</l>
+                <l>For him who will accept the golden key,</l>
+                <l>And will for such a chance my patron be.</l>
+                <l>To my own land I fain would give the prize,</l>
+                <l>But there was no speculation in their eyes,</l>
+                <l>And not a real but to realise</l>
+                <l>My ardent Spirit’s hope’s, would they advance,</l>
+                <l>French leave I took of them, and unto France</l>
+                <l>Laden with gall, pursued my weary way,</l>
+                <l>But the great Lewis had by reckless play</l>
+                <l>Collapsed his treasury, for like a stoker</l>
+                <l>The British King had singed him at drawpoker,</l>
+                <l>The winning King I tried, while he was flush,</l>
+                <l>But for my suit he did’nt care a rush,</l>
+
+                <pb n="p.8" facs="19"/>
+                <pb n="p.8i" facs="20"/>
+                <l>Now sad and broken down, I’ve wandered here,</l>
+                <l>Without one ray my onward path to cheer—</l>
+                <l>The street my <del>lodging</del><add>chamber,</add> and the stones my bed,</l>
+                <l>An airy lodging for I’ve ‘nary red!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>Audacious peddler! what is this we hear—</l>
+                <l>You say our World is but a hemisphere,</l>
+                <l>And there’s another somewhere under ground</l>
+                <l>That joined with it goes always’s bobbing round.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="Y">This earth’s a globe.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent3">Well, that’s a round assertion—</l>
+                <l>Then tell us, if you please, just for diversion,</l>
+                <l>What does it rest on?</l>
+            </lg>
+        </sp>
+
+        <addSpan spanTo="#A48"/>
+        <sp>
+            <speaker>Diego.</speaker>
+            <l>Ginger nuts</l>
+        </sp>
+
+        <anchor xml:id="A48"/>
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="Y">Circumambient space—</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F">Circum-fiddlesticks—you <emph>are</emph> a case!</l>
+                <l part="Y">And what’s the reason that it doesn’t drop?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l part="F">In endless revolution like a top</l>
+                <l>It sleeps,—thus exquisitely poised in air</l>
+                <l part="Y">By equalized attraction.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l part="F" rend="indent3">Fool—beware!</l>
+                <l>We cannot listen to such words as these,</l>
+                <l>The stake has blazed for lighter heresies!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>A lunatic—there’s not a doubt of that—</l>
+                <l>But in the meal-tub there <emph>may</emph> be a cat.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <l part="Y">Poor man! We must do something for him.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent6">Stay!</l>
+                <l>Wait ‘till we find out if the thing will pay,</l>
+                <l>Friend Christopher, we’re sorry for your plight,</l>
+                <l>But pledge our royal word to make it right</l>
+                <l>If to our realm you’ll add some foreign nation,</l>
+                <l>Rich and disposed to stand extreme taxation,</l>
+                <l>Prove you can do this, so that none can doubt it,</l>
+                <l>And we shall give you—</l>
+            </lg>
+        </sp>
+
+        <addSpan spanTo="#A49"/>
+        <sp>
+            <speaker>Diego.</speaker>
+            <l rend="indent3">Pop corn!</l>
+        </sp>
+
+        <anchor xml:id="A49"/>
+        <sp>
+            <speaker>King.</speaker>
+            <l rend="indent4">leave to set about.</l>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="Y">But, sire, my scheme needs money.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent5">Well, then <emph>share</emph> it—</l>
+                <l>Get up a joint stock and don’t over-“<emph>bear</emph>” it.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="Y">Craft I must have to sail in.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent4">“Quantum suf.”</l>
+                <l>Once you’re in Wall street, you’ll find craft enough,</l>
+                <l>You dreamy fellow’s, that don’t know the ropes</l>
+                <l>Sit down and starve upon your empty hopes,</l>
+                <l part="Y">While sharper dunces thrive.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l part="F">I fain would know</l>
+                <l>The way.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>To raise the wind you’ll have to “blow,”</l>
+                <l>We’ll call our company—“the <emph>Anti-Panic</emph></l>
+                <l><emph>Perpetual Gold Producing Oceanic</emph>,”</l>
+                <delSpan spanTo="#D02"/>
+                <l>And true <foreign>de facto</foreign> high old “Life and Trust—“</l>
+                <l part="Y">Bound in due time to spread itself—</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="F" rend="indent5">And bust.</l>
+        </sp>
+        <anchor xml:id="D02"/>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l><del>Of course, but not till</del><add>When it is formed there</add>
+                        we<add>'ll</add> go in and win,</l>
+
+                <pb n="p.9i" facs="21"/>
+                <pb n="p.9" facs="22"/>
+                <l>Capital we’ll call five millions to begin.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l>I shall not need a third.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Oh! have no fears,—</l>
+                <l>We must provide for fast clerks and cashiers,</l>
+                <l>Armies of “Blowers”—“Runners” and “Advisers”—</l>
+                <delSpan spanTo="#D03"/>
+                <l>“Committees”—“Lobbyers” and “Advertisers”—</l>
+                <l>And for your president a small gratuity.</l>
+                <l>Some thirty thousand would’nt hurt us.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l>Query!</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l>You would’nt go below our friends in Erie—</l>
+        </sp>
+        <anchor xml:id="D03"/>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>My aspirations, sire, you only mock</l>
+                <l>Who would be fools enough to take such stock:</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Who, Sir?—Why everybody! what stupidity,</l>
+                <l>If you but nicely tickle their cupidity!</l>
+                <l>I’ll prove it in an instant. <add><stage type="mixed">King goes C. Sits in State
+                            chair.</stage></add>Ho! a Court!<add><stage>movement of the Lords &amp;
+                            Ladies</stage></add></l>
+            </lg>
+            <stage type="entrance" rend="right">[<hi rend="italics">The court makes an immediate
+                    advance.</hi></stage>
+            <lg>
+                <l>My lords, we’re going to make you a report</l>
+                <l>Of the first meeting for consolidation,</l>
+                <l>Of our new filibustering association,—</l>
+                <l>I mean for the encouragement of emigration,—</l>
+                <delSpan spanTo="#D04"/>
+                <l>Present—the president, myself—ahem!</l>
+                <l>Secretary and Treasurer <foreign>pro tem</foreign>—</l>
+                <anchor xml:id="D04"/>
+                <l>Profits enormous, and the outlay small.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l>An old man’s wearied life, perhaps, that’s all.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Who’ll venture while the wheel of fortune whirls,</l>
+                <l>Dividend’s paid in gold or Jersey pearls:</l>
+                <l>You should’nt let a chance like this go bye.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Ferdinand.</speaker>
+            <l>I’ll take some stock!</l>
+        </sp>
+
+        <sp>
+            <speaker>Courtiers.</speaker>
+            <l part="Y">And I—and I—&amp;c.</l>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <l part="F" rend="indent3">Just put me down.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="Y"><add rend="above">Cardinal</add><del>Archbishop</del>, you a byer?
+                        <add><stage type="location">King advances centre</stage></add></l>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <l part="F">Prudence is a cardinal virtue, sire.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Now we must try the street—Pope say’s you know,</l>
+                <l>Man wants but [<name>Jacob</name>] little here below—</l>
+                <l>And we’re all right. <add><stage type="location">L.H.</stage></add></l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>Then care and sorrow’s past,</l>
+                <l>Hope dawns and life’s worth living for at last!</l>
+            </lg>
+            <stage type="business" rend="right">[<hi rend="italics">Flings away maps and stands
+                    abstracted.</hi></stage>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <l part="Y">Look at the peddler!</l>
+        </sp>
+        <addSpan spanTo="#A06"/>
+        <stage type="mixed">
+            <l>General Movement</l>
+            <l>all watching Columbus</l>
+            <l>intense interest observed hereby</l>
+            <l>all on the stage</l>
+            <l>Cardinal R. Queen R.C. Columbus L.C. King L.</l>
+        </stage>
+        <anchor xml:id="A06"/>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent3">Just as sure as fate</l>
+                <l>He’s in a beautiful clairvoyant state!</l>
+                <l>Columbus! Why are you in such amaze?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>Time onward passes, and my mental gaze</l>
+                <l>Is on the future, lo! I see a land</l>
+                <l>Where nature seems to frame with practised hand</l>
+                <l>Her last most wonderous work! before me rise</l>
+                <l>Mountains of solid rock that rift the skies,—</l>
+                <l>Imperial vallies with rich verdure crowned</l>
+                <l>For leagues illimitable smile around,</l>
+                <l>While through them subject seas for rivers run</l>
+
+                <pb n="p.10" facs="23"/>
+                <pb n="p.10i" facs="24"/>
+                <l>From ice bonnd tracts to where the tropic sun</l>
+                <l>Breeds in the teeming ooze strange monstrous things—</l>
+                <l>I see upswelling from exhaustless springs,</l>
+                <l>Great lakes appear upon whose surface wide</l>
+                <l>The banded navies of the earth may ride,</l>
+                <l>I see tremendous cataract’s emerge</l>
+                <l>From cloud aspiring heights, whose slippery verge</l>
+                <l>Tremendous ocean’s momently roll o’er,</l>
+                <l>Assaulting with unmitigated roar</l>
+                <l>The stunned and shattered ear of trembling day</l>
+                <l>That wounded, weeps in glistening tears of spray!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>We grieve your sensibility to shock,</l>
+                <l>See something else or down will go our stock.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>I see upspringing from the fruitful breast</l>
+                <l>Of the beneficent and boundless West,</l>
+                <l>Uncounted acres of life-giving grain,</l>
+                <l>Wave o’er the gently undulating plain,</l>
+                <l>So tall each blade that you can scarcely touch</l>
+                <l>The top!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l>Ah! now, my blade, you see too much.</l>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>Within the limits of the southern zone</l>
+                <l>I see plantations, thickly overgrown</l>
+                <l>With a small shrub in whose white flower lies</l>
+                <l part="Y">A revenue of millions!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent3">You surprise</l>
+                <l>Us now, we’ll cotton to that tree!</l>
+                <l>Go on, old fellow, what else do you see?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="Y" rend="indent2">Some withered weeds—</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F" rend="indent4">Pooh!</l>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>From which men can evoke</l>
+                <l part="Y">Profit as wonderful!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="I" rend="indent3">From what?</l>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="F">From smoke.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Ah, now you’re in the clouds again. Good gracious!</l>
+                <l>Think of the stock, and don’t be so fugacious.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>I see a river, through whose limpid stream,</l>
+                <l>Pa<add>c</add><del>s</del>tolus like, the yellow pebbles gleam;</l>
+                <l>Flowing through regions, where great heaps of gold,</l>
+                <l>Uncared for, lie in affluence untold,</l>
+                <l>Thick as autumnal leaves, the precious store.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>My eyes! why didn’t you see that before?</l>
+                <l>We’ll go ourself, we mean we shall “go in.”</l>
+                <l part="Y">Go on.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l part="F" rend="indent1">I see small villages begin,</l>
+                <l>Like twilight stars, to peep forth timidly,</l>
+                <l>Great distances apart; and now I see</l>
+                <l>Towns, swol’n to cities, burst upon the sight,</l>
+                <l>Thick as the crowded firmament at night.</l>
+                <l>I see brave science, with inspired soul,</l>
+                <l>Subdue the elements to its control;</l>
+                <l>On iron ways, through rock and mountain riven,</l>
+
+                <pb n="p.11i" facs="25"/>
+                <pb n="p.11" facs="26"/>
+                <l>Impelling mighty freights, by vapor driven;</l>
+                <l>Or with electric nerves so interlace</l>
+                <l>The varied points of universal space.</l>
+                <l>Thought answers thought, though scores of miles between—</l>
+                <l part="Y">Time is outstripped—<add>and naught is that has been.</add></l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent3"><del>We’re not so jolly green.</del></l>
+                <l>My friend, come, ain’t you getting rather steep?</l>
+                <l>We beg to probability you’ll keep.</l>
+                <l part="Y">What see you now?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l part="F" rend="indent3">The plethora of wealth</l>
+                <l>Corrupt and undermine the general health.</l>
+                <delSpan spanTo="#D05"/>
+                <l>I see vile madd’ning fumes incite to strife,</l>
+                <l>Obscure the sense and whet the murderer’s knife.</l>
+                <l part="Y">I see dead rabbits—</l>
+                <anchor xml:id="D05"/>
+                <addSpan spanTo="#A07"/>
+                <l>I see above the land the war clouds lower<ptr target="#note218" n="218"/></l>
+                <l>Pregnant with death and madness rule the hour</l>
+                <l>And now I see her unpolluted shield</l>
+                <l>More brightly shine in battle fires unneeded</l>
+                <l>And the sole taint that tarnished her fair name</l>
+                <l><unclear>We've</unclear> purified in freedom’s sacred flame.</l>
+                <l part="Y">I see investigations—</l>
+                <anchor xml:id="A07"/>
+            </lg>
+        </sp>
+
+        <addSpan spanTo="#A08"/>
+        <stage>
+            <list>
+                <item>Columbus. <hi rend="underline">Glass of Gin &amp; water (Chair</hi></item>
+                <item>Ferdinand. <hi rend="underline">Candle.</hi></item>
+                <item>Columbia. <hi rend="underline">Flag.</hi></item>
+                <item>Chorus. L.1.E.</item>
+            </list>
+        </stage>
+        <anchor xml:id="A08"/>
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent3">That’s enough—give o’er;</l>
+                <l>It won’t be prudent to see any more.</l>
+                <l>You’ve evidently over-taxed your head—</l>
+                <l>Just take a whiskey skin<ptr target="#note219" n="219"/> and go to bed.</l>
+                <l>Meantime, we give our royal approbation</l>
+                <l>To your grand scheme of general annexation;</l>
+                <l>And that in stealing gold you may not cease,</l>
+                <l>Receive the order of the “Golden Fleece.”</l>
+                <delSpan spanTo="#D06"/>
+                <l>I must keep dark—of course you have the “nous”</l>
+                <l>To pass judiciously the custom house.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>It will be hard, I know, to put the blinders</l>
+                <l>Upon the new marshall Don Isaiah Rynders.</l>
+                <l>Our freight, mere farming implements we’ll call—</l>
+                <l>A cargo of threshing machines—that’s all.</l>
+            </lg>
+        </sp>
+        <anchor xml:id="D06"/>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>The oyster trade just now is rather bad,</l>
+                <l>We know a couple of sloops that can be had</l>
+                <l>Dirt cheap for cash. We’ll give you the command,</l>
+                <l part="Y">And you can start at once.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l part="F" rend="indent4">I’ll be on hand</l>
+                <l>At any moment, sire, that you propose—</l>
+                <l>My trunk is packed, when I put on my clothes.</l>
+                <l>Hope and your royal favor to my heart</l>
+                <l>Ambition impulse energy impart,</l>
+                <l>Ere long, like swelling sails, to be unfurled;</l>
+                <l>Blow, friendly gales, they’ll bring you back a world.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Bring back a world! that would be, I must say,</l>
+                <l>Handsome return for such a small outlay.</l>
+            </lg>
+        </sp>
+
+        <addSpan spanTo="#A09"/>
+        <sp>
+            <speaker>Queen</speaker>
+            <stage type="location">R.H.</stage>
+            <lg>
+                <l><unclear>W??</unclear> leave your son with us him will engage</l>
+                <l>Now would you like to be a royal page</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Diego</speaker>
+            <stage type="location">L.H.</stage>
+            <lg>
+                <l>Oh! Wouldn’t I, for such a high condition</l>
+                <l>I’d sacrifice my mercantile position.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Queen</speaker>
+            <l>Have then your wish, you shall attend on us</l>
+        </sp>
+
+        <sp>
+            <speaker>Diego</speaker>
+            <l>Ain’t I a jolly lucky little cuss.<ptr target="#note220" n="220"/></l>
+            <l>Farewell my stock in trade farewell my store<ptr target="#note221" n="221"/></l>
+            <l>I’ll give up business now and shut the door.</l>
+        </sp>
+        <stage type="mixed">
+            <l>(<hi rend="underline">Song Diego <unclear>&amp;</unclear> follows</hi> (<hi rend="underline">Closes cigar lid</hi>)</l>
+        </stage>
+        <anchor xml:id="A09"/>
+        <sp>
+            <speaker>Queen.<add><stage>after Diego's song</stage></add></speaker>
+            <lg>
+                <l>Dear me! does anybody know how late</l>
+                <l part="Y">It is?</l>
+            </lg>
+        </sp>
+
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F" rend="indent1">I don’t for one.</l>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <l>It’s half-past eight.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="Y">Good gracious!</l>
+        </sp>
+        <addSpan spanTo="#A10"/>
+        <sp>
+            <speaker>All.</speaker>
+            <l>Oh Dear!</l>
+            <stage type="business">(<hi rend="underline">all Yawn</hi>)</stage>
+        </sp>
+        <anchor xml:id="A10"/>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <l part="I" rend="indent2">Yes, indeed.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent3">Well, don’t you worry;</l>
+                <l>We’ll go to bed, but as we’re in a hurry—</l>
+                <l>The scene must operatically end—</l>
+                <l>We’ll sing good night to our distinguished friend.</l>
+            </lg>
+        </sp>
+
+        <pb n="p.12" facs="27"/>
+        <pb n="p.12i" facs="28"/>
+        <stage type="business" rend="center">SLEEPY CHORUS, <hi rend="italics">with yawning
+                accompaniment, in which it is hoped the spectators will not join.</hi>
+            <add>L1E</add></stage>
+        <stage type="mixed"><add>Exit Diego 3.E.R. and returns with lighted candles (say
+            12)</add></stage>
+
+        <floatingText>
+            <body>
+                <div type="song">
+                    <head rend="center"><name>Fonseca.</name>
+                        <title type="tune">"Enchantress."</title></head>
+                    <lg type="verse">
+                        <l rend="indent2">We are so nappy that to bed we must start,</l>
+                        <l rend="indent3">The courtier doth easily lie;</l>
+                        <l rend="indent2">To make us happy, though before we depart,</l>
+                        <l rend="indent3">A night-cap I’ll have on the sly.</l>
+                        <l rend="indent4">Oh deary me, how sleepy are we,</l>
+                        <l rend="indent4">Ye—ah!—aw! <stage type="delivery">[<hi rend="italics">yawning,</hi>]</stage> &amp;c.</l>
+                    </lg>
+                </div>
+
+                <div type="song">
+                    <head rend="center"><foreign>Duetto Cordiali.</foreign>
+                        <name>Ferdinand and Columbus.</name></head>
+                    <stage><add>King [sings lines 1-4,] Columbus [sings lines 5-8]</add></stage>
+                    <lg type="verse">
+                        <l rend="indent2">Sonny, all right, good night,</l>
+                        <l rend="indent3">We’ll meet at breakfast in the morning,</l>
+                        <l rend="indent2">And take a bite when the early light</l>
+                        <l rend="indent3">Of the morn gets up, the dawn adorning.</l>
+                        <l rend="indent2">In all the independent journals</l>
+                        <l rend="indent3">We’ll have a first-rate notice;</l>
+                        <l rend="indent2">To succeed without the aid of the diurnals,</l>
+                        <l rend="indent3">We know now-a-day no go ’tis, &amp;c., &amp;c.</l>
+                    </lg>
+
+                </div>
+            </body>
+        </floatingText>
+        <stage type="exit" rend="right">[<hi rend="italics"><del>All go off</del> with bed
+                candlesticks.</hi></stage>
+
+    </div>
+    <div type="scene" xml:id="BR_Act1_Scene2">
+    <head rend="center">SCENE II.<stage type="setting">—<hi rend="italics">A modest and
+                retiring apartment in the palace.</hi></stage></head>
+    <addSpan spanTo="#A11"/>
+    <stage type="mixed">
+        <p>change: White night cap &amp; white night Robe for King ready R.H.1.E. All closed in 1.G.
+            Music continues till Columbus on, in <hi rend="underline">Scene</hi> 2nd. Brings on
+            chair &amp; Goblet of Whiskey Punch. Spoon &amp; lemon &amp;c ready Change.</p>
+    </stage>
+    <anchor xml:id="A11"/>
+
+    <stage type="entrance" rend="center">COLUMBUS <hi rend="italics">enters with a nightcap, which,
+            in a moment of abstraction, he swallows.</hi>
+        <add>L1E</add></stage>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>I’ve made a precious bargain here, I swear—</l>
+            <l>This downey king expects the lion’s share</l>
+            <l>And hasn’t taken one, the common way</l>
+            <l>In which the poor world-worker gets his pay.</l>
+            <l>On one side, enterprise, toil, danger, death!</l>
+            <l>And on the other, mouthfuls of mere breath.</l>
+            <l>A vain man—worshipped, transitory name,</l>
+            <l>But ah! to sparkle in the heaven of fame</l>
+            <l>Eternal as itself, and life outlast,</l>
+            <l>Still ever-present in the living past.</l>
+            <l>To think one’s memory may fill unsought</l>
+            <l>A Sovran throne within the realm of thought,</l>
+            <l>When piled up centuries their shadow flings</l>
+            <l>Across the records of forgotten kings;</l>
+            <l part="Y">What to such destiny are earthly joys?</l>
+        </lg>
+    </sp>
+
+    <stage type="entrance" rend="center">FERDINAND, <hi rend="italics">(the king,)—in robe de
+            chambre, and nightcapped <add>&amp; lighted candle</add>—looks <del>from door,
+                F.</del></hi>
+        <add>R.1.E.</add></stage>
+
+    <sp>
+        <speaker>King.</speaker>
+        <lg>
+            <l part="F">Friend Christopher, you’re making too much noise;</l>
+            <l>Please to remember this is not an inn.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>I beg your pardon, sire, it was the gin;</l>
+            <l>By that, and your kind promises elated,</l>
+            <l>I own I did feel somewhat elevated.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>King.</speaker>
+        <l>Well, just blow off your froth and settle down. <stage type="exit" rend="right">[<hi rend="italics">Exit.</hi>
+                <add>1.E.R.</add></stage></l>
+    </sp>
+
+    <pb n="p.13i" facs="31"/>
+    <pb n="p.13" facs="32"/>
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>All right, your majesty. Oh, great renown,</l>
+            <l>What slights aspiring poverty endures</l>
+            <l>That through such patrons the great prize secures;</l>
+            <l>It riles me even now, to think this thing</l>
+            <l>In after ages to my fame will cling,</l>
+            <l>And like dead fruit upon the living tree,</l>
+            <l>Hang on to my green immortality.</l>
+            <l>Could this mean king, unless by my deserving,</l>
+            <l>Awake the genius of a Prescott or an Irving!</l>
+            <l>There’s no use moralizing now, because</l>
+            <l>What will be will be, as what has been was.</l>
+            <l>And talking of what will be—a strange thought</l>
+            <l>Just crossed my mind with difficulty fraught:</l>
+            <l>If some small scribbler, in a future day,</l>
+            <l>Should try to weave my story in a play,</l>
+            <l>I’m curious now to know what he would do</l>
+            <l>For female interest to carry through</l>
+            <l>His plot, if any, for <emph>my wife’s</emph> at home;</l>
+            <l>I couldn’t ask her majesty to roam</l>
+            <l>Amongst my rude adventures—I guess</l>
+            <l>He’ll find himself in a delightful mess.</l>
+            <l>He’ll want a heroine, the rules despotic—</l>
+            <l>Hollo! that gin, by jingo, <emph>is</emph> narcotic. <stage type="delivery" rend="right">[<hi rend="italics">Yawns.</hi></stage></l>
+            <l>Where can he find one? Out of some French play,</l>
+            <l>No doubt; that will be, then, the usual way.</l>
+            <l>French thought, French plot, French wit, French moral, cast,</l>
+            <l>And published, probably, by French, at last.</l>
+            <l>I’m going—going—gone. <stage type="business" rend="right">[<hi rend="italics">Sleeps.</hi>
+                    <add>R.C. in chair</add>
+                    <add rend="above">change</add></stage></l>
+        </lg>
+    </sp>
+    <addSpan spanTo="#A12"/>
+    <stage>
+        <l><hi rend="underline">Music</hi> Without whistle <hi rend="underline">flats<ptr target="#note222" n="222"/> open (Circle) Columbia descends on Mote when infront
+                [?] close up.</hi> Sing.</l>
+        <l>Get Ready Ship behind very quietly.</l>
+    </stage>
+    <anchor xml:id="A12"/>
+
+    <stage type="entrance" rend="center">COLUMBIA <hi rend="italics">appears in luminous opening, at
+            back—comes forward and touches</hi> COLUMBUS, <hi rend="italics">who starts, and
+            looks at her with astonishment.</hi></stage>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <l part="Y">Columbus, wake! <add><stage type="location">L.H.</stage></add></l>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l part="F">Hollo, ma’m, who are you, for gracious sake— <add><stage type="location">R.H.</stage></add></l>
+            <l>Attired in such extraordinary guise?</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l>It’s strange you should exhibit such surprise.</l>
+            <l>Don’t you know your own child?</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>I’m not so wise</l>
+            <l>A father.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <l>No! nor yet old Uncle Sam?</l>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <l>Haven’t the honor.</l>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l>Well, his niece I am,</l>
+            <l>In fact the genius of the mighty land</l>
+            <l>On which will rest your name and fame.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>I understand.</l>
+            <l>You’re Hail Columbia, then—well, I declare,</l>
+            <l>I’m very glad to see you—take a chair.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <l part="Y">Excuse me.</l>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l part="F" rend="indent2">From your cap and spangled bodice,</l>
+            <l>I took you first for Crawford’s sculptured Goddess.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l>And so I am—myself and Liberty</l>
+            <l>Are one</l>
+        </lg>
+    </sp>
+
+    <pb n="p.14" facs="33"/>
+    <pb n="p.14i" facs="34"/>
+    <sp>
+        <speaker>Col.</speaker>
+        <l>Thus, undivided may you ever be.</l>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <l>I feel obliged.</l>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>Pray tell me, if you please,</l>
+            <l>Are you that same liberty Demosthenes</l>
+            <l>So thundered for, until the cute invader</l>
+            <l>Beneath the patriot espied the trader,</l>
+            <l>And putting golden pebbles, it is said,</l>
+            <l>Into his mouth, shut up his noisy head?</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l>Alas, I am, and <emph>you</emph> need not be told</l>
+            <l>That by such <emph>patriots</emph> I’m always sold.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>Likely enough; but may I make so bold</l>
+            <l>As most respectfully to ask, what is it</l>
+            <l>Produces me the honor of this visit?</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <l>Of course you know you’re sleeping in that chair?</l>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>I did <emph>not</emph> realize the fact, I swear.</l>
+            <l part="Y">But if you say that—</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <l part="I" rend="indent3">I assure you.</l>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l part="F" rend="indent4">Oh!</l>
+            <l>It’s quite enough for you to tell me so.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <l>You wish to know, then, why I made this call?</l>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <l part="Y">If not too much to ask—</l>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l part="F" rend="indent3">Oh, not at all.</l>
+            <l>You were just now much puzzled in your mind</l>
+            <l>In wondering where a dramatist could find</l>
+            <l part="Y">A heroine—</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <l part="I" rend="indent2">Yes, I remember.</l>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l part="F" rend="indent4">Look at me—</l>
+            <l>I mean, with you, to cross the Western Sea.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <l>But what induces you so far to roam?</l>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l>Simply the wish to reach my future home</l>
+            <l>As quickly as I can. By adverse fate</l>
+            <l>Compelled reluctantly to emigrate,</l>
+            <l>My business here is virtually ended,</l>
+            <l>The firm of “Freedom &amp; Company” in fact suspended.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>I’m sorry to hear that—’twas my belief</l>
+            <l>That your investments here were just as safe</l>
+            <l>As—the <del>Bank of England,</del><add>savings banks,</add> I was going to
+                say,</l>
+            <l>But lately that comparison won’t pay.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l>But see, ‘tis morning—your effects are stored,</l>
+            <l>The ship awaits us—shall we go on board?</l>
+            <l>Conveying Liberty, that humble bark</l>
+            <l>Unharmed shall ride, and like the primal ark,</l>
+            <l>Where its keel rests another world arise,</l>
+            <l>And Freedom hang its shingle on the skies.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>Are my prophetic visions, then, so near</l>
+            <l>Fulfilment? Oh, I feel uncommon queer;</l>
+            <l>Is it ambition so distracts my head,</l>
+            <l>Or last night’s “<del>tod</del><add>gin</add>” before I went to bed?</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l>Courage, Columbus; you have scenes of strife</l>
+            <l>Before you—even periling your life.</l>
+
+            <pb n="p.15i" facs="35"/>
+            <pb n="p.15" facs="36"/>
+            <l>But I’ll be with you in the hour of need.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l>I’m very much obliged to you. Indeed—</l>
+            <l>Thankful such guardianship to have secured.</l>
+            <l>Between ourselves <emph>my</emph> ship is not insured.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Colum.</speaker>
+        <lg>
+            <l>I’ll take the risk. Behold our banner spread! <stage type="business" rend="right">[<hi rend="italics">Displays flag.</hi></stage></l>
+            <l part="Y">Protection dwells within its folds.</l>
+        </lg>
+    </sp>
+
+    <sp>
+        <speaker>Col.</speaker>
+        <lg>
+            <l part="F" rend="indent5">“Nuf ced.”</l>
+            <l>I’m game to follow that, so go ahead.</l>
+        </lg>
+    </sp>
+
+    <floatingText>
+        <body>
+            <div type="song">
+                <head rend="center">SONG—<name>Columbus.</name>
+                    <title type="tune">"Star-Spangled Banner."</title></head>
+                <lg type="verse">
+                    <l rend="indent1">Oh, say, shall I see, ere my soul takes its flight,</l>
+                    <l rend="indent2">Though the last ray of life should be fitfully gleaming,</l>
+                    <l rend="indent1">A new country arise, on whose banner of light</l>
+                    <l rend="indent2">Freedom’s sons may behold the bright heaven of their
+                        dreaming.</l>
+                    <l rend="indent4">Should a factious hand dare</l>
+                    <l rend="indent4">Its proud folds to impair,</l>
+                    <l rend="indent4">May it withering fall, and Columbia still bear</l>
+                    <l rend="indent3">Her own star-spangled banner, forever to wave</l>
+                    <l rend="indent3">O’er the land of the free and the home of the brave.</l>
+                </lg>
+            </div>
+        </body>
+    </floatingText>
+    <stage type="exit" rend="right">[<hi rend="italics">Exeunt,</hi> L. H. <add><hi rend="underline">Clear Chair</hi></add></stage>
+
+</div>
+    
+</div>
+            <div type="act" xml:id="BR_Act2_Scenes1-2">
+    <pb n="p.19i" facs="43"/>
+    <pb n="p.19" facs="44"/>
+    <head rend="center">ACT II.</head>
+    <div type="scene">
+        <head rend="center">SCENE I.<stage type="setting">—<p><hi rend="italics">In which the
+                        spectators are gratified by another view of the same palace, but in an empty
+                        state. It being the</hi> 1<hi rend="italics">st of May</hi> HIS MAJESTY <hi rend="italics">moves in, followed by</hi> RODRIGUEZ DE
+            FONSECA.</p></stage></head>
+        <addSpan spanTo="#A17"/>
+        <stage>
+            <unclear>?????t</unclear>
+            <lb/> King. <lb/> Cardinal. <lb/> Diego. <hi rend="underline">Long Telegraphic
+                dispatch</hi>
+            <lb/> Queen. <lb/> All the Courtiers. <lb/> All the States ready. <lb/> Colorado. <hi rend="underline">Shield, javlin &amp; helmet</hi>
+            <lb/> Fernando. <lb/> L en 1st full stage </stage>
+        <anchor xml:id="A17"/>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Archbishop, we’re dyspeptic, dull, ennuyed,</l>
+                <l>And some amusement very sadly need.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fon.</speaker>
+            <lg>
+                <l>Sire, I’m your soul’s physician, solely, so,</l>
+                <l>What medicine to prescribe I hardly know,</l>
+                <l>The operatic folk are here to day,</l>
+                <l>And give, I’m told, a splendid <emph>matinee</emph>.</l>
+                <l>The sweetest singing birds I understand</l>
+                <l>That ever came from song’s own native land,</l>
+                <l part="Y">Delicious Italy!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent2">Delicious goose!</l>
+                <l>You know the squalling’s only an excuse,</l>
+                <l>The whole affair you may depend upon its</l>
+                <l>Only an opening show of new spring bonnets.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fon.</speaker>
+            <l>A play perhaps might quicken your sensations.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l>I’m sick of local plays and French translations.</l>
+        </sp>
+
+        <sp>
+            <speaker>Fon.</speaker>
+            <l part="Y">The model artistes—</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F"><stage type="delivery">[<hi rend="italics">Virtuously
+                    indignant</hi>]</stage> What?</l>
+        </sp>
+
+        <sp>
+            <speaker>Fon.</speaker>
+            <lg>
+                <l>Not as orign<emph>ally</emph></l>
+                <l>Shown, but etherialized—there’s a new ballet.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>No, no, I’m tired of their old Grandpas,</l>
+                <l>And can’t translate their jumps and entrechats.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>Some painting’s have arrived, sir, which are said</l>
+                <l part="Y">To be superior.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F" rend="indent2">Is the artist dead?</l>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <l part="Y">Not yet, my liege, I think.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent4">Ah, that’s a pity</l>
+                <l>They won’t sell ‘till he <emph>is</emph>, in this great city.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>I scarce know what amusement to propose—</l>
+                <l>Were you in temper for exciting shows</l>
+                <l>We might go hear the aldermen debate,</l>
+                <l>Or the police commissioners dilate</l>
+                <l>On party straws, while through the city’s walks</l>
+                <l>High-handed rowdyism rampant stalks.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Be good enough to change the conversation</l>
+                <l>We cannot help the city’s situation,</l>
+                <l>If it’s inhabitants don’t watch the game</l>
+                <l>And see all’s fair, they’ve but themselves to blame</l>
+                <l>Rule or mis-rule depends upon their voice</l>
+                <l>They pay’s their money and they <del>has</del><add>takes</add> their choice,</l>
+                <l>Can you suggest no kind of recreation</l>
+                <l>To quell this hypochandriac sensation?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>Well, let’s see, Sire—if you have the leisure</l>
+                <l>You might, combining piety and pleasure,</l>
+
+                <pb n="p.20" facs="45"/>
+                <pb n="p.20i" facs="46"/>
+                <l>Cook a few heretics.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l><stage type="business">[<hi rend="italics">Rising up.</hi>]</stage> That
+                        <emph>would</emph> drive off the blues!</l>
+                <l>I <emph>could</emph> enjoy a dozen roasted Jews</l>
+                <l part="Y">on the half-shell—</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l part="F" rend="indent3">Sire, I regret to say</l>
+                <l>We’re out of Jews, upon your last birth day.</l>
+                <l part="Y">We dressed them all.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent3">Why, what a burning shame!</l>
+                <l>Is there nothing unorthodox that you could name?</l>
+            </lg>
+        </sp>
+
+        <delSpan spanTo="#D10"/>
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <l>Scores of poor debtor’s in our prison’s dwell—</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l>Would rather fry of course,—they’ll do as well.</l>
+        </sp>
+
+        <anchor xml:id="D10"/>
+
+        <addSpan spanTo="#A50"/>
+        <sp>
+            <speaker>Cardinal</speaker>
+            <l part="Y">Suppose we should bombard a town or two</l>
+            <l><unclear>A? ????</unclear>defenseless crew</l>
+        </sp>
+
+        <sp>
+            <speaker>King</speaker>
+            <l part="F">Well that might do</l>
+            <l><unclear>Therefore if you say so will thr???</unclear></l>
+            <l><unclear>?? ???? ?? ??????</unclear></l>
+            <l>But stop, we’ve no monopoly of flame.</l>
+            <l>Two might be forced to play that sort of game.</l>
+            <l>And were we beaten back we should look silly</l>
+            <l>Phew, the thought makes me feel a kind of <hi rend="underline">chilly</hi>.</l>
+        </sp>
+
+        <stage>Song introduced for King</stage>
+        <anchor xml:id="A50"/>
+        <stage type="entrance" rend="center"><hi rend="italics">Enter</hi> DIEGO, <hi rend="italics">unceremoniously.</hi></stage>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l>What ho! Diego, whence this anxious face?</l>
+        </sp>
+
+        <sp>
+            <speaker>Diego.</speaker>
+            <l><stage type="business">[<hi rend="italics">Present’s Telegraph.</hi>]</stage> A
+                Telegraph, your highness, from</l>
+            <l rend="indent1">Cape Race.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="Y">For us it seems—well, what of that, my lad?</l>
+        </sp>
+
+        <sp>
+            <speaker>Diego.</speaker>
+            <l part="F">Sire, I’m in hopes there may be news from dad!</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <stage type="business" rend="right">[<hi rend="italics">Unfolding strip of
+                        paper.</hi></stage>
+                <l>Faith it’s extensive, from it’s length I guess</l>
+                <l>T’was meant for the associated press! <stage type="business" rend="right">[<hi rend="italics">Reads.</hi></stage></l>
+                <delSpan spanTo="#D11"/>
+                <l>“Discount increased”—“Fund’s easy”—“Cotton”—bother!</l>
+                <l>“The Queen’s expected soon to have another”—</l>
+            </lg>
+            <anchor xml:id="D11"/>
+        </sp>
+        <delSpan spanTo="#D12"/>
+
+        <sp>
+            <speaker>Diego and Fonseca.</speaker>
+            <l><stage type="delivery">[<hi rend="italics">Naturally surprised.</hi>]</stage>
+                What?</l>
+        </sp>
+        <anchor xml:id="D12"/>
+        <addSpan spanTo="#A18"/>
+        <l>“Latest from every where phew!" This looks dark</l>
+        <l>"The Spaniards physiced by Peruvian bark”<ptr target="#note227" n="227"/></l>
+        <l><unclear>???</unclear> England failure of the house of Peto<ptr target="#note228" n="228"/></l>
+        <l>And from America another veto</l>
+        <anchor xml:id="A18"/>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <delSpan spanTo="#D13"/>
+                <l>“Drawing room”—Pshaw! they leave that line set up</l>
+                <l>“Improved stock”—“Agricultural prize cup”—</l>
+                <anchor xml:id="D13"/>
+                <l>Ah! here we are—“Now coming through the sound</l>
+                <l>The Sloop Santa Maria homeward bound.”</l>
+                <l>“Columbus master—from the Indian oceans,</l>
+                <l>"Freighted with odds and ends, and Yankee Notions.”</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Diego.</speaker>
+            <lg>
+                <l>Dad coming home! huzza! I hope and trust</l>
+                <l>The old boy’s brought back plenty of the dust</l>
+                <l>If so his pockets will be soon attacked,</l>
+                <l>I’m deuced short just now, and that’s a fact.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Our admiral returned, with lots of gold</l>
+                <l>Of course, our Bell this good news must be told!</l>
+                <l part="Y">Ah! here she is!</l>
+            </lg>
+        </sp>
+
+        <stage><add>Chorus.</add></stage>
+
+        <stage type="entrance" rend="center"><hi rend="italics">Enter</hi> ISABELLA <hi rend="italics">and the whole Court. <add>E.R.H.</add></hi></stage>
+
+        <addSpan spanTo="#A19"/>
+        <stage type="location">
+            <list>
+                <item>Lords</item>
+                <item>Pages</item>
+                <item>Ladies of the Court</item>
+                <item>Chorus</item>
+            </list>
+            <l rend="center">Cardinal R. H. Queen C. King L.H.C. Diego L. H.</l>
+        </stage>
+        <anchor xml:id="A19"/>
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F">Come, Bell, our oceanic stock’s</l>
+                <l>Right up, we’ll have a pocket full of rocks.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <lg>
+                <l>I’m glad to hear such welcome sounds as these!</l>
+                <l>Beck’s bill is stiff and so is Tiffanny’s.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>Columbus back! from him I’ll take the shine</l>
+                <l>Or else his star will overshadow mine.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>We’re in such jolly spirits we could sing—</l>
+                <l part="Y">And will—play up!</l>
+                <stage type="business" rend="right">[<hi rend="italics">To leader of
+                    orchestra.</hi></stage>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Leader.</speaker>
+            <l part="I" rend="indent3">What, sire?</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F" rend="indent2">Oh! anything.</l>
+        </sp>
+
+        <sp>
+            <speaker>Leader.</speaker>
+            <l part="Y">The gold song from "Robert?"</l>
+        </sp>
+
+        <pb n="p.21i" facs="47"/>
+        <pb n="p.21" facs="48"/>
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F" rend="indent3">That’s just the thing!</l>
+        </sp>
+
+        <floatingText>
+            <body>
+                <div type="song">
+                    <head rend="center"><hi rend="italics">Singular vocal
+                            melange—</hi><name>KING.</name>— <title type="tune">“Robert le Diable.”</title></head>
+                    <lg type="verse">
+                        <l rend="indent3">Gold, gold, gold, is no chimera</l>
+                        <l rend="indent3">Though sung to the opera stalls,</l>
+                        <l rend="indent3">Bold, bold, bold, to risk so queer-a</l>
+                        <l rend="indent3">Joke within the opera walls,</l>
+                        <l rend="indent3">Where so much capital moulders</l>
+                        <l rend="indent3">And the dividends don’t come along</l>
+                        <l rend="indent3">Every blessed shareholder’s</l>
+                        <l rend="indent3">Most unmistakably sold for a song.</l>
+                    </lg>
+                </div>
+
+                <div type="song">
+                    <head rend="center"><hi rend="italics">Choral interruption—</hi><title type="tune">“Rigoletto”</title></head>
+                    <lg type="verse">
+                        <l rend="indent2">Hard times, hard times, we’ve suffered</l>
+                        <l rend="indent3">Enough by the hard times</l>
+                        <l rend="indent1">Par-times, par-times, we’ll soon have the regular
+                            par-times!</l>
+                        <l rend="indent1">Star times, star times, Columbus will bring in the star
+                            times!</l>
+                        <l rend="indent2">Let’s meet him, and greet him</l>
+                        <l rend="indent3">With a hip! hip! hip! hurrah!</l>
+                    </lg>
+                </div>
+
+                <div type="song">
+                    <head rend="center"><hi rend="italics">Selfish and unprincipled
+                            solo—</hi><name>FONSECA.</name>—<title type="tune">“Poor
+                            Soldier.”</title></head>
+                    <lg type="verse">
+                        <l rend="indent3">Now the money panic,</l>
+                        <l rend="indent3">Lately so tyranic,</l>
+                        <l rend="indent3">Is bound to start it’s apple-cart</l>
+                        <l rend="indent4">Before the “Oceanic.”</l>
+                        <l rend="indent4">Oh! the “Oceanic!”</l>
+                        <l rend="indent4">I owe the “Oceanic”</l>
+                        <l rend="indent3">A heap for shares, so unawares</l>
+                        <l rend="indent4">Must “<emph>bear</emph>” the “Oceanic.”</l>
+                    </lg>
+                </div>
+
+                <delSpan spanTo="#D14"/>
+                <div type="song">
+                    <head rend="center"><hi rend="italics">Solo—</hi>
+                        <name>DIEGO</name>—<title type="tune">"The Quaker’s
+                        Wife."</title></head>
+                    <lg type="verse">
+                        <l rend="indent3">Father and I are both in town,</l>
+                        <l rend="indent4">For up he’s got to poney,</l>
+                        <l rend="indent3">Or I shall have to simmer down,</l>
+                        <l rend="indent4">And think of matrimony.</l>
+                    </lg>
+                </div>
+
+                <anchor xml:id="D14"/>
+
+                <div type="song">
+                    <head rend="center"><del><hi rend="italics">Her Majesty signifies her
+                                intentions</hi></del>
+                        <name>Diego.</name>—<title type="tune">"Jeannette and
+                            Jeannot."</title></head>
+                    <lg type="verse">
+                        <l rend="indent1">Oh! I’ll have such brilliant parties now as never yet were
+                            seen,</l>
+                        <l rend="indent1">For lately my allowance was particularly mean,</l>
+                        <l rend="indent1">But now the specie’s flowing in, the banks will all be
+                            flush,</l>
+                        <l rend="indent1">And you had best believe it, that we’ll go it with a
+                            rush.</l>
+                    </lg>
+                </div>
+
+                <div type="song">
+                    <head rend="center"><title type="tune">"Lucy Neal."</title></head>
+                    <lg type="verse">
+                        <l rend="indent3">And all will you see kneel,</l>
+                        <l rend="indent3">Oh, all will you see kneel,</l>
+                        <l rend="indent3">Before the great and mighty dollar</l>
+                        <l rend="indent4">All will <emph>you</emph> see kneel.</l>
+                    </lg>
+                </div>
+            </body>
+        </floatingText>
+
+        <stage><add><damage>?</damage> he's a jolly good fellow.</add></stage>
+
+        <addSpan spanTo="#A20"/>
+        <stage>
+            <list>
+                <item>March.</item>
+                <item>March. "The 36 States,"<ptr target="#note229" n="229"/> all ready to March in
+                    U.E.R.H.</item>
+                <item>Shouts Ready R.U.E.</item>
+            </list>
+        </stage>
+        <anchor xml:id="A20"/>
+
+        <pb n="p.22" facs="49"/>
+        <pb n="p.22i" facs="50"/>
+        <addSpan spanTo="#A21"/>
+        <stage>
+            <list>
+                <item>Ready High</item>
+                <item>2</item>
+                <item>Everybody to End the Piece</item>
+                <item>Egg L. 1. E. for Diego</item>
+            </list>
+        </stage>
+        <anchor xml:id="A21"/>
+        <stage type="entrance" rend="center"><add>C.R.H.</add><hi rend="italics">Enter</hi>
+            FERNANDO. <add>R.U.E.</add></stage>
+
+        <sp>
+            <speaker>Fernando.</speaker>
+            <l>My liege! my liege!</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Why, what irruption’s this?</l>
+                <l>Or rather interruption, what’s amiss?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fernando.</speaker>
+            <lg>
+                <l>Nothing, my liege, I bear you welcome news!</l>
+                <l part="Y">Columbus!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent2">That’s another pair of shoes!</l>
+                <l part="Y">Has he returned?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fernando.</speaker>
+            <lg>
+                <l part="F" rend="indent2">Just landed, and I’m told</l>
+                <l part="Y">Has brought you, sire, about a ton of gold!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King and all.</speaker>
+            <l part="I" rend="indent3">A ton!</l>
+        </sp>
+
+        <sp>
+            <speaker>Fernando.</speaker>
+            <lg>
+                <l part="F" rend="indent4">More or less,</l>
+                <l>As New Year’s gifts he brings</l>
+                <l>From the New World such rare and curious things</l>
+                <l>As he could pick up in so short a stay</l>
+                <l>Which at your royal feet, he beg’s to lay!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Now curiosity our bosom shakes!</l>
+                <l>We grant his suit, go hurry up the cakes!</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <lg>
+                <l>Your highness, this ambitious man I fear,</l>
+                <l>Puffed by success, will cause disturbance here.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Don’t be alarmed, we know what we’re about!</l>
+                <l>When we have turned the vagrant inside out</l>
+                <l>In kingly style—away he’ll have to pack—</l>
+                <l>We’ll take his presents and give him the sack.</l>
+            </lg>
+        </sp>
+
+        <addSpan spanTo="#A22"/>
+        <stage type="business">Shouts R.U.E.</stage>
+        <anchor xml:id="A22"/>
+        <stage type="business" rend="right">[<hi rend="italics">All the courtiers crowd the sides,
+                kept back by guards.</hi></stage>
+
+        <sp>
+            <speaker>Fonseca.</speaker>
+            <l>Where are you pushing to! stand back! <add>Here they come</add></l>
+        </sp>
+
+        <addSpan spanTo="#A23"/>
+        <stage type="mixed">Shouts U.E.R.H. Police enter R.U.E. <hi rend="underline">March</hi></stage>
+        <anchor xml:id="A23"/>
+        <stage type="entrance">[<hi rend="italics">The Trans-Atlantic procession files
+                    in<add>.</add>
+                <delSpan spanTo="#D15"/>in the following order: A small detachment of Police to
+                clear the way—a group of Indian slipper and smoking cap sellers, with their
+                banner. A glass ballot box, carried by a politician of character, supported by a few
+                distinguished members of the “Dead Rabbit Club.” The Prince of Humbugs, mounted on a
+                superbly-caparisoned woolly horse, and attended by a live mermaid and the nurse of
+                Washington. Two Ethiopians, bearing respectively a mint julep and a sherry cobbler.
+                Cuttle, Sleek and Toodles, arm-in-arm. King Powhattan, Pocahontas and John Smith.
+                The Almighty Dollar, in regal robes, and promiscuously attended. <anchor xml:id="D15"/> All the States, represented by beautiful young ladies,
+                surrounding</hi> COLUMBUS. <hi rend="italics">An allegorical mask, interrupted by
+                    <del>noise without.</del>
+                <add>Shouts U.E.R.H. Police enter.</add></hi></stage>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="Y">What tumult’s that?</l>
+        </sp>
+
+        <delSpan spanTo="#D16"/>
+        <sp>
+            <speaker>New York.</speaker>
+            <lg>
+                <l part="F" rend="indent2">Miss Kansas, I suppose</l>
+                <l>She’s crying to get in.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>What, with her bleeding nose?</l>
+                <l>I told her she would have to wait a cure,</l>
+                <l>And when her Constitution could endure</l>
+                <l>Fatigue, she might come in. Why here she is!</l>
+            </lg>
+        </sp>
+
+        <anchor xml:id="D16"/>
+        <addSpan spanTo="#A24"/>
+        <stage type="business">Shouts to E.R.</stage>
+        <sp>
+            <speaker>Manhatta</speaker>
+            <lg>
+                <l>Its little Colorado, sure as fate</l>
+                <l>She flatters herself that shes a full grown state</l>
+                <l>here she is</l>
+            </lg>
+        </sp>
+        <stage type="entrance" rend="underline">Enter Colorado<ptr target="#note230" n="230"/>
+            U.C.R.H.</stage>
+        <sp>
+            <speaker>Columbia</speaker>
+            <l>Well miss what do you want?</l>
+        </sp>
+        <sp>
+            <speaker>Colorado</speaker>
+            <l>I want to get in.</l>
+        </sp>
+        <stage type="business" rend="underline">All laugh</stage>
+
+        <sp>
+            <speaker>Manhatta</speaker>
+            <l>Tell us about the infant just for fun</l>
+        </sp>
+
+        <sp>
+            <speaker>All</speaker>
+            <l>yes yes</l>
+        </sp>
+        <sp>
+            <speaker>Columbia</speaker>
+            <lg>
+                <l><del>I say no no, my child go back to school</del></l>
+                <l>I say no no, you’re home too soon <unclear>????</unclear> quitted</l>
+                <l>Children in arms you know, are not admitted</l>
+            </lg>
+        </sp>
+        <stage type="mixed" rend="underline">Exit with Columbus. Enter Discord (Music) (torch) who
+            stirs up strife between the states, leading to tableaux<ptr target="#note231" n="231"/>
+            of contention. Discord laughs finally Columbia flings him down and the Notes are
+            reconciled</stage>
+        <stage type="mixed"><del>March</del>(Closed In) Tableau Yellow Fire</stage>
+
+        <anchor xml:id="A24"/>
+        <stage type="entrance">[<del>KANSAS</del><add>COLORADO</add>
+            <hi rend="italics">enters and causes great confusion among the States, the<delSpan spanTo="#D17"/></hi> IMP OF DISCORD <hi rend="italics">attends her, who is
+                finally quelled by</hi> COLUMBIA. <hi rend="italics">and harmony is restored.</hi>
+            <anchor xml:id="D17"/></stage>
+
+        <addSpan spanTo="#A25"/>
+        <stage type="mixed">Stage 1/2 dark at demon music <damage>?</damage> 1st scene center
+                <damage>?</damage></stage>
+        <anchor xml:id="A25"/>
+
+    </div>
+
+    <div type="scene" xml:id="BR_Act2_Scene2">
+        <addSpan spanTo="#A26"/>
+        <head rend="center">
+            <hi rend="underline">SCENE 2nd</hi>
+        </head>
+        <stage type="setting">
+            <hi rend="underline">Palace Flats</hi>
+        </stage>
+
+        <stage type="entrance">
+            <hi rend="underline">Enter all the crowds R.H.</hi>
+        </stage>
+
+        <sp>
+            <speaker>King</speaker>
+            <l>The scene is over, there the matter ends.</l>
+            <l>Now I suppose they'll shake hands and be friends.</l>
+        </sp>
+        <sp>
+            <speaker>King</speaker>
+            <stage type="delivery">in manner of politeness</stage>
+            <l>All right nuff sed its best then to keep shady</l>
+            <l>Won't you introduce us to your lady</l>
+        </sp>
+        <anchor xml:id="A26"/>
+
+        <pb n="p.23i" facs="51"/>
+        <pb n="p.23" facs="52"/>
+        <delSpan spanTo="#D18"/>
+        <sp>
+            <speaker>King.</speaker>
+            <l part="Y">Columbus, we are pleased.</l>
+        </sp>
+
+        <sp>
+            <speaker>Queen.</speaker>
+            <l part="I" rend="indent3">And we—</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l part="F" rend="indent3">Keep shady!</l>
+                <l>Bell. Won’t you introduce me to your lady? <stage type="delivery" rend="right">[<hi rend="italics">To</hi> COL.</stage></l>
+            </lg>
+        </sp>
+        <anchor xml:id="D18"/>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="Y">Only too proud. Columbia!</l>
+        </sp>
+
+        <sp>
+            <speaker>Colum.</speaker>
+            <l part="F" rend="indent3">I’m on hand!</l>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>Let me present you to King Ferdinand,</l>
+                <l>Queen Isabella.</l>
+            </lg>
+        </sp>
+
+        <stage type="business">[COLUMBIA <hi rend="italics">shakes hand energetically with their
+                majesties to the great consternation of the Court.</hi></stage>
+
+        <sp>
+            <speaker>Colum.</speaker>
+            <l part="Y">Hollo! What’s out?</l>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l part="F" rend="indent2">My pet,</l>
+                <l>You’ve outraged all the rules of ettiquette.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Colum.</speaker>
+            <l part="Y">What should I do?</l>
+        </sp>
+
+        <sp>
+            <speaker>Fon.</speaker>
+            <l part="F" rend="indent2">Why kneel, the rules demand it.</l>
+        </sp>
+
+        <sp>
+            <speaker>Colum.</speaker>
+            <l>I can’t—my constitution wouldn’t stand it.</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>We’ll wave the ceremonial. Can these be</l>
+                <l part="Y">Your children that we <del>look at</del><add>looked at</add>?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Colum.</speaker>
+            <lg>
+                <l part="F" rend="indent4">Yes, sirree!</l>
+                <l>I have a few more young uns on the “farms”</l>
+                <l>Besides one most unruly babe in “arms,”</l>
+                <delSpan spanTo="#D19"/>
+                <l>Miss Utah, but we soon shall cure her ills</l>
+                <l>With some steel drops and "<emph>Harney’s</emph>" leaden-pills!</l>
+                <anchor xml:id="D19"/>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Columbus, what reward can we bestow</l>
+                <l>On you for giving us this goodly show?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l>My liege if I’ve accomplished well my task</l>
+                <l>And gained your favor, it is all I ask.</l>
+                <l>Our fillibustering scheme I’ve carried through,</l>
+                <l>The country’s safe, and now belongs to you.</l>
+                <delSpan spanTo="#D20"/>
+                <l>Bye and bye, perhaps, when they’ve experience bought,</l>
+                <l>They may return us the same blow we taught.</l>
+                <anchor xml:id="D20"/>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <lg>
+                <l>Such magnanimity our bosom charms,</l>
+                <l>So we present you with—a coat of arms,</l>
+                <l>Together with the name and rank of “Don—”</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Fon.</speaker>
+            <lg>
+                <l>My liege, our precincts now you trench upon,</l>
+                <l>‘Twill be bad precedent to lift poor merit</l>
+                <l>Up to their level, who by blood inherit.</l>
+                <l>What has he done except what I or you</l>
+                <l>Or any accidental fool could do?</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Colum.</speaker>
+            <l part="Y">I’ll tell you—</l>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l part="F" rend="indent2">Don’t be riled, I’ll see you through,</l>
+                <l>Bring me an egg. <stage type="business" rend="right">[<hi rend="italics"><add>Exit
+                                Deigo L.H.1.E. and re-enters with Egg. Gives it to Columbus on
+                                tray.</add> The egg is brought.</hi></stage></l>
+                <l>If you’re with skill endowed</l>
+                <l>To make this egg stand up, I’ll treat the crowd.</l>
+            </lg>
+        </sp>
+
+        <stage type="business">[<hi rend="italics">They individually try the experiment which is a
+                failure all round.</hi></stage>
+
+        <sp>
+            <speaker>Diego.</speaker>
+            <l part="Y">I’m beat!</l>
+        </sp>
+
+        <sp>
+            <speaker>Fernando.</speaker>
+            <l part="I" rend="indent1">I’m sold!</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="M" rend="indent2">We’re bothered.</l>
+        </sp>
+
+        <stage>
+            <add>Ready Gong</add>
+        </stage>
+        <sp>
+            <speaker>Fon.</speaker>
+            <lg>
+                <l part="F" rend="indent3">Where’s the fun</l>
+
+                <pb n="p.24" facs="53"/>
+                <pb n="p.24i" facs="54"/>
+                <l>In this? It’s evident it can’t be done.</l>
+            </lg>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="Y">Oh! yes it can!</l>
+        </sp>
+
+        <sp>
+            <speaker>King.</speaker>
+            <l part="F" rend="indent2">We’d like to see the way.</l>
+        </sp>
+
+        <sp>
+            <speaker>Fon.</speaker>
+            <l part="Y">I’ll stake my head it can’t!</l>
+        </sp>
+
+        <sp>
+            <speaker>Col.</speaker>
+            <lg>
+                <l part="F" rend="indent3">“A dreadful lay,”</l>
+                <l>Here’s to decide it! Now behold, oh king,</l>
+                <l>What great effects from such slight cause will spring!</l>
+            </lg>
+        </sp>
+        <addSpan spanTo="#A27"/>
+
+        <stage type="mixed">
+            <l>new and <unclear reason="illegible">eek ubotion</unclear><ptr target="#note232" n="232"/>
+                <hi rend="underline">Gong</hi></l>
+            <l>
+                <hi rend="underline">Change to large Egg. Flat 1.G.</hi>
+            </l>
+        </stage>
+
+        <sp>
+            <speaker>King</speaker>
+            <lg>
+                <l>That is a whopper well upon my word</l>
+                <l>It’s very plain, Columbus, you’re a bird</l>
+                <l part="Y">I’d like to know what chick from that will spring</l>
+            </lg>
+        </sp>
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="F" rend="indent3">shelter find</l>
+        </sp>
+        <sp>
+            <speaker>King</speaker>
+            <lg>
+                <l>What’s that you say, the third part of the earth<ptr target="#note233" n="233"/></l>
+            </lg>
+        </sp>
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="F" rend="indent3">July the 4th</l>
+        </sp>
+        <sp>
+            <speaker>King</speaker>
+            <lg>
+                <l>Come that’s a bouncer<ptr target="#note234" n="234"/> of the biggest kind</l>
+                <l part="Y">I don’t believe a word of it</l>
+            </lg>
+        </sp>
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="F" rend="indent3">you don't</l>
+        </sp>
+        <sp>
+            <speaker>King</speaker>
+            <l part="Y">Not I</l>
+        </sp>
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="F" rend="indent3">goodbye</l>
+        </sp>
+        <sp>
+            <speaker>King</speaker>
+            <l part="Y">What, are you off</l>
+        </sp>
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="F" rend="indent3">before election</l>
+        </sp>
+        <sp>
+            <speaker>King</speaker>
+            <l>The country will be ours then won't it</l>
+        </sp>
+        <sp>
+            <speaker>Col.</speaker>
+            <l part="F" rend="indent3">in Mexico<ptr target="#note235" n="235"/></l>
+        </sp>
+        <stage type="exit">exit 1.E.L.H.</stage>
+        <sp>
+            <speaker>King</speaker>
+            <lg>
+                <l>That sassy chef must be Professor Blot<ptr target="#note236" n="236"/></l>
+                <l>This awful egg he leaves, foul legacy</l>
+                <l>But the yobe, I mean yoke, I could <hi rend="underline">eggs</hi>ually see</l>
+                <l>Whats to be done, we can neither fry nor roast it</l>
+                <l><unclear reason="illegible">???</unclear>all the egg sauce in the realm could
+                    eggsaust it</l>
+            </lg>
+        </sp>
+
+        <stage>
+            <hi rend="underline">Stage &amp; House Lights Down</hi>
+        </stage>
+        <sp>
+            <speaker>Cardinal</speaker>
+            <l>The shell is cracking, The secret will be out.</l>
+        </sp>
+
+        <stage>
+            <hi rend="underline">2d Gong</hi>
+        </stage>
+
+        <stage>
+            <hi rend="underline">Change Egg to Last Scene, The Tableau</hi>
+        </stage>
+        <anchor xml:id="A27"/>
+
+        <stage type="business">[<hi rend="italics">Gong. The scene shifts for itself and discovers the
+                egg of Columbus, being much magnified, which changes to the Temple of Fame, in which are
+                grouped a selection from American celebrities on a pyramid. Columbus takes his place.
+                    <add>discovered.</add></hi></stage>
+
+
+        <floatingText>
+            <body>
+                <div type="song">
+                    <head rend="center">
+                        <hi rend="italics">Finale.—<title type="tune">“Hail
+                            Columbia.”</title></hi>
+                    </head>
+                    <addSpan spanTo="#A28"/>
+                    <stage>1. only</stage>
+                    <anchor xml:id="A28"/>
+                    <lg type="verse">
+                        <l rend="indent2">Hail Columbia’s honored band,</l>
+                        <l rend="indent2">Hail ye worthies of the land,</l>
+                        <l rend="indent3">By freedom broke</l>
+                        <l rend="indent3">From the foreign yoke,</l>
+                        <l rend="indent2">We the benignant stars invoke</l>
+                        <l rend="indent3">Protection evermore,</l>
+                        <l rend="indent2">To shed upon thy friendly shore.</l>
+                        <l rend="indent3">May Columbia’s happy land,</l>
+                        <l rend="indent3">Rifted by no traitor hand</l>
+                        <l rend="indent4">United be</l>
+                        <l rend="indent4">From sea to sea,</l>
+                        <l rend="indent2">The home of <emph>Peace</emph> and <emph>Liberty!</emph></l>
+                    </lg>
+                </div>
+            </body>
+        </floatingText>
+
+        <l rend="center">THE END.</l>
+        <lb/>
+
+        <pb n="p.24i back" facs="55"/>
+        <addSpan spanTo="#A29"/>
+
+        <figure>
+            <figDesc>Character arrangement for the final tableau, with squares to clarify arrangement of
+                thirty-six states in and around the Temple of Fame.</figDesc>
+
+            <list>
+                <item rend="center">Columbia</item>
+                <item rend="center">Plow | Sherman | Washington | Sheridan<ptr target="#note237" n="237"/> | Anvil</item>
+                <item rend="center">cannon | Gen. Greene | Gen. W. | Gen. P.<ptr target="#note238" n="238"/> | cannon</item>
+                <item rend="center">Indian | 2 Lady | Penn | <figure>
+                        <figDesc>small column</figDesc>
+                    </figure> | Columbus | Miles | Indian</item>
+                <item rend="center"> Bible | Cloth</item>
+                <item rend="center">Colorado.<stage rend="underline">Lying on Stage.
+                    C.H.G.</stage></item>
+            </list>
+            <list>
+                <item rend="center">18 [states] on each side</item>
+                <item rend="center"><hi rend="underline">N-York</hi> R.H. | <hi rend="underline">Massachusetts</hi> L.H.</item>
+                <item rend="center">
+                    <hi rend="underline">Box with red fire in front of Leader of orchestra.</hi>
+                </item>
+            </list>
+        </figure>
+
+        <anchor xml:id="A29"/>
+
+    </div>
+</div>
+            <noteGrp xml:id="BR_notes">
+    <note type="theatrical" xml:id="note201">
+        <p> Initialisms are used throughout the promptbook to indicate the nature of entrances and
+            exits as well as scene and/or backdrop changes. <bibl>Brougham’s <ref target="https://catalog.hathitrust.org/Record/008961278"><title>Temptation, or,
+                        The Irish Emigrant: A Comic Drama in Two Acts</title> (Samuel French
+                    1856)</ref></bibl> provides this helpful gloss: </p>
+        <p> L. means <hi rend="italics">First Entrance, Left</hi>. R. <hi rend="italics">First
+                Entrance, Right</hi>. S.E.L. <hi rend="italics">Second Entrance, Left</hi>. S.E.R.
+                <hi rend="italics">Second Entrance, Right</hi>. U.E.L. <hi rend="italics">Upper
+                Entrance, Left</hi>. U.E.R. <hi rend="italics">Upper Entrance, Right</hi>. C. <hi rend="italics">Centre</hi>. L.C. <hi rend="italics">Left of Centre</hi>. R.C. <hi rend="italics">Right of Centre</hi>. T.E.L. <hi rend="italics">Third Entrance,
+                Left</hi>. T.E.R. <hi rend="italics">Third Entrance, Right</hi>. C.D. <hi rend="italics">Centre Door</hi>. D.R. <hi rend="italics">Door Right</hi>. D.L. <hi rend="italics">Door Left</hi>. U.D.L. <hi rend="italics">Upper Door, Left</hi>.
+            U.D.R. <hi rend="italics">Upper Door, Right</hi>. *** The Reader is supposed to be on
+            the Stage, facing the Audience </p>
+        <p> The <title>Columbus Reconstructed</title> promptbook uses similar initialisms but
+            occasionally with the addition of numbers 1-3 or the letters H, N, or G. We believe the
+            numbers indicate order (First, Second, Third), that H may refer to Hand (as in Right
+            Hand First Entrance), and N to North. G likely denotes Groove, or a pulley system with
+            different grooves in the floor that allowed upright painted scenes, known as flats, to
+            change by sliding across the stage in late eighteenth- and early nineteenth-century
+            productions. Overhead rigging largely replaced flats and grooves by the 1860s. </p>
+    </note>
+
+    <note type="definition" xml:id="note202">Feminine representation of the island of Manhattan, a
+        stand-in for the City of New York.</note>
+    <note type="definition" xml:id="note203">Feminine representation of the state of
+        Massachusetts.</note>
+    <note type="definition" xml:id="note204">Feminine representation of the state of Pennsylvania,
+        also known as the Keystone State.</note>
+    <note type="theatrical" xml:id="note205">A “Chinese lantern” seems to be a “magic lantern” or
+        “phantasmagoria” technology, which involved the use of multiple painted slides mounted on a
+        mobile light projector to create static, moving, growing, or shrinking images.
+            <bibl>(Terence Rees, <title>Theatre Lighting in the Age of Gas</title>, London: The
+            Society of Theatre Research, pp. 81-84)</bibl>. The list of lanterns and transparencies
+        here and subsequent stage directions for both Act 1, scene 3, and Act 2, scene 2, indicate
+        that productions of the <title>Columbus</title> burlesque applied a variety of contemporary
+        image technologies.</note>
+    <note type="theatrical" xml:id="note206">A transparency “consisted of a painting on a canvas or
+        linen, lighted from behind” <bibl>(Rees, <title>Theatre Lighting in the Age of Gas</title>,
+            p. 120)</bibl>. </note>
+    <note type="definition" xml:id="note207">Also “sound on the goose question,” slang for a
+        supporter of slavery, especially during the “Bleeding Kansas” conflicts of the 1850s, though
+        in the subsequent decade, it evolved to mean politically conventional <bibl>(Emmett Redd and
+            Etcheson, Nicole, “‘Sound on the Goose’: A Search for the Answer to an Age Old
+            ‘Question’,” <title>Kansas History</title>, vol. 32, no. 3, 2009, p. 206)</bibl>.</note>
+    <note type="historical" xml:id="note208">The ubiquity of the Columbus icon extended to
+        commercial products in the mid-nineteenth-century, as evidenced by this list.</note>
+    <note type="definition" xml:id="note209">May refer to the rabbits being covered with small
+        spots. <bibl><title>OED Online</title>, tick, v.1 3b</bibl>.</note>
+    <note type="theatrical" xml:id="note210">Solon Shingle was a bumbling, innocently obtrusive
+        comic Yankee figure with a love for applesauce (a.k.a. “apple sass”) who first appeared in
+        Joseph Stevens Jones’s drama <title>The People’s Lawyer</title> (1839). Shingle, as
+        performed by George Handel Hill, was such a hit that Yankee performer John E. Owens adapted
+        the play in 1864, titled it <title>Solon Shingle</title>, and performed the role with great
+        success. One gets a sense of the character from lyrics on <bibl><ref target="https://digitalcommons.conncoll.edu/sheetmusic/1279/">accompanying
+                sheet music</ref></bibl>.</note>
+    <note type="historical" xml:id="note211">An official message (a dispatch) sent via an
+        electromagnetic telegraph machine. The technology was developed by Samuel F. B. Morse
+        (1791-1872) in the 1830s and 1840s, and by the 1850s was a well-established way of sending
+        information quickly across long distances.</note>
+    <note type="theatrical" xml:id="note212">“Fire” was a fireworks-like lighting effect in the
+        theater, created when metal powder (composition based on the desired color) was placed in a
+        steel box and ignited <bibl>(Rees, <title>Theatre Lighting in the Age of Gas</title>, pp.
+            150-51)</bibl>.</note>
+    <note type="theatrical" xml:id="note213">A prop egg resting on a tray stands ready for Diego to
+        carry in for the final scene.</note>
+    <note type="historical" xml:id="note214">British Quaker William Penn (1644-1718) founded the
+        colony of Pennsylvania on the land of the Lenape Delaware and Iroquois peoples after
+        receiving a charter from King Charles II in 1681.</note>
+    <note type="historical" xml:id="note215">Myles Standish (1584?–1656) was an English soldier
+        selected over John Smith to serve as the Pilgrims’ military leader when they immigrated to
+        Plymouth colony in 1620. Instrumental in the military and political history of the colony,
+        Standish became a popular icon in the nineteenth century through Henry Wadsworth
+        Longfellow’s largely apocryphal <bibl><title>The Courtship of Myles Standish</title>
+            (1858)</bibl>.</note>
+    <note type="historical" xml:id="note216">Brougham adds a gag concerning Diego as a popcorn
+        vendor to the post-bellum version. Popcorn was a popular street food at the time.</note>
+    <note type="historical" xml:id="note217">A hard cookie flavored with ginger, akin to a ginger
+        snap. <bibl><title>OED Online</title>, ginger n. and adj. 1, C2</bibl>. A popular street
+        food in nineteenth-century America, the ginger nut makes an appearance in <bibl>Herman
+            Melville’s “Bartleby, the Scrivener” (1853)</bibl> as the nickname for an office errand
+        boy who fetches snacks for other workers, including <quote>“that peculiar cake—small, flat,
+            round, and very spicy.”</quote></note>
+    <note type="historical" xml:id="note218">A direct reference to the recently ended Civil War.
+        Brougham depicts the war’s <quote>“battle fires”</quote> as <quote>“unneeded”</quote> and at
+        the same time imagines the nation’s <quote>“sole taint,”</quote> i.e. slavery, eliminated
+        through <quote>“freedom’s sacred flame."</quote></note>
+    <note type="definition" xml:id="note219">A container for liquids made from small animal skins.
+                <bibl><title>OED Online</title>, skin, n. 4a</bibl>.</note>
+    <note type="definition" xml:id="note220">A<quote>"person of a specified...character or
+            type,”</quote> here modified by lucky. <bibl><title>OED Online</title>, cuss, n.
+            2</bibl>.</note>
+    <note type="historical" xml:id="note221">Diego declares he will no longer sell his wares in the
+        street now that he has employment at court. This is likely a pun on the closing lines of
+        Puritan poet <bibl>Anne Bradstreet’s “Verses upon the Burning of our House, July 10th, 1666”
+            (1678)</bibl>, which read: <quote>“Farewell, my pelf, farewell, my store. / The world no
+            longer let me love, / My hope and treasure lies above.”</quote>
+    </note>
+    <note type="theatrical" xml:id="note222">In this staging, the flats (painted scenery) part,
+        Columbia descends to the front of the stage, and then she stands on a mound (mote). See
+        first note on stage directions.</note>
+    <note type="theatrical" xml:id="note223">Gaslighting is lowered for the conflict that opens the
+        scene.</note>
+    <note type="theatrical" xml:id="note224">Applesauce. See earlier note on Solon
+        Shingle.<!--<ptr target="#note210" n="210"/>--></note>
+    <note type="definition" xml:id="note225">Derisive taunt. <bibl>Booth Tarkington’s <title>The
+                Magnificent Ambersons</title> (1918)</bibl> refers to "pull down your vest" as
+            <quote>“the accustomed argot of street badinage”</quote> in the postbellum period and in
+                <bibl><title>A Tramp Abroad</title> (1880), Mark Twain</bibl> imagines two crows
+        hurling that and other insults at him. In his <bibl>1891 <title>American Slang
+                Dictionary</title>, James Maitland</bibl> refers to this as <quote>“one of the
+            absurd street sayings which from time to time flourish and fade.”</quote>
+    </note>
+    <note type="theatrical" xml:id="note226">Unclear directions, but perhaps Columbia moves to cover
+        Columbus with the flag once he kneels and the circle of discordant politicians would move
+        downstage.</note>
+    <note type="historical" xml:id="note227">The 1865-66 Chincha Islands War began when Spain took
+        control of the guano-rich islands from its former colony, Peru.</note>
+    <note type="historical" xml:id="note228">Sir Samuel Morton Peto (1809–1889), an English railroad
+        contractor, and his partner, Edward Betts, filed for bankruptcy in 1866.</note>
+    <note type="historical" xml:id="note229">When <title>Columbus El Filibustero!!</title>
+        premiered, there were just 29 states. Minnesota, Oregon, Kansas, West Virginia, and Nevada
+        were added between 1858 and 1864, bringing the total to 36.</note>
+    <note type="historical" xml:id="note230">Colorado Territory was organized in 1861 and did not
+        become a state until 1876. “Plains Wars” or “Indian Wars” between Native and non-Native
+        forces marked the region during this time. In 1864, Colonel John Chivington and a volunteer
+        militia of white men murdered around 500 Southern Cheyenne and Arapaho men, women, and
+        children in what came to be known as the Sand Creek Massacre. Colorado’s territorial
+        governor, John Evans, supported Chivington. Evans also advocated for statehood, though
+        Colorado’s voters initially rejected the state’s constitution and statehood bid. “Little
+        Miss Colorado” thus replaces “Little Miss Kansas” as the source of discord in Brougham’s
+        closing scene.</note>
+    <note type="theatrical" xml:id="note231">The plural of tableau, a theatrical device common in
+        the nineteenth century wherein action stopped and actors held poses to emphasize a
+        significant scene.</note>
+    <note type="definition" xml:id="note232">Unclear addition. In the dialogue added around the
+        revelation of the Temple of Fame, the King’s lines are interspersed with what seem to be
+        portions of the lines to be spoken by Columbus (indicated by long dashes).</note>
+    <note type="definition" xml:id="note233">Perhaps indicates that the Americas, which Columbus
+        claims to have discovered, constitute one third of the earth. According to <bibl><ref target="https://www.worldatlas.com/">WorldAtlas</ref></bibl>, the actual fraction of
+        the earth’s landmass constituted by North and South America is 26.9%.</note>
+    <note type="definition" xml:id="note234">In nineteenth-century jargon, <quote>“a large specimen
+            of its kind.”</quote>
+        <bibl><title>OED Online</title>, bouncer, n. 4</bibl>.</note>
+    <note type="historical" xml:id="note235">Likely a reference to the ambitions of some
+        nineteenth-century filibusteros.</note>
+    <note type="historical" xml:id="note236">Pierre Blot was the author of the popular cookbook,
+                <bibl><title>What to Eat, and How to Cook It</title> (1863)</bibl>.</note>
+    <note type="historical" xml:id="note237">William Tecumseh Sherman (1820-91) was a U.S. Army
+        General remembered for his campaign of property destruction he oversaw in the Confederacy
+        near the close of the Civil War. George Washington (1732-99) was the Commander of the
+        Continental Army during the American Revolutionary War and the first US President. Philip
+        Henry Sheridan (1831-88) was a US Army General revered for his Civil War leadership. In the
+        1860s he oversaw the brutal U.S. campaign against the Plains Indians.</note>
+    <note type="historical" xml:id="note238">Three Generals for the Continental Army during the
+        Revolutionary War: Nathanael Greene (1742-86), Joseph Warren (1741-75; he died in battle
+        before receiving his commission), and Israel Putnam (1718-90). Productions seemed to have
+        varied those included in the final spectacle. <bibl>The program for an 1867 production of
+                <title>Columbus Reconstructed</title> at the Walnut Street Theatre in
+            Philadelphia</bibl> refers to this portion of the Temple as inhabited by <quote>“a
+            selection of the Heroes of the Revolution--General Warren, [Henry] Knox, Putnam,
+            &amp;c.”</quote></note>
+</noteGrp>
+        </body>
+    </text>
+</TEI>

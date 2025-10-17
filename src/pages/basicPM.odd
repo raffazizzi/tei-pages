@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<TEI xmlns:mei="http://www.music-encoding.org/ns/mei" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:pb="http://teipublisher.com/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Basic Processing Model ODD</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>TEI Pages</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>born digital</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <schemaSpec start="TEI teiCorpus" ident="teipages">
+                
+                <elementSpec ident="ab" mode="change">
+                    <model behaviour="paragraph">
+                        <outputRendition>font-style: italics;</outputRendition>
+                    </model>
+                </elementSpec>
+                
+                <elementSpec ident="add" mode="change">
+                    <!-- Some CSS somehwere defines:
+                        .testitalics {
+                          font-style: italics;
+                        }    
+                    -->
+                    <model behaviour="inline" cssClass="testitalics" />
+                </elementSpec>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>

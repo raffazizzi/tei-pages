@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://gitlab.com/scholarly-editing/se-microedition-kol/-/raw/main/static/odd/kol.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://gitlab.com/scholarly-editing/se-microedition-kol/-/raw/main/static/odd/kol.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" type="main">Antoine Is Willing to Burn It All Down</title>
+            <title type="sub">May 10–16, 1795</title>
+            <editor>
+               <name>Leila K. Blackbird</name>   
+            </editor>
+            <principal>
+               <name>Jessica Marie Johnson</name>
+            </principal>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name>Leila K. Blackbird</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translated by</resp>
+               <name>Leila K. Blackbird</name>
+            </respStmt>
+            <respStmt>
+               <resp>Annotated by</resp>
+               <name>Leila K. Blackbird</name>
+               <name>E. G. Palazzolo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name>Leila K. Blackbird</name>
+               <name>Emma Katherine Bilski</name>
+               <name>E. G. Palazzolo</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+                  <date>2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Scholarly Editing: The Annual of the Association for Documentary Editing</authority>
+               <address>
+                  <addrLine>http://www.scholarlyediting.org</addrLine>
+            </address>
+            <publisher>Association for Documentary Editing</publisher>
+            <date>2024</date>
+               <idno>kol</idno>
+               <idno>kol</idno>
+               <availability>
+                  <p>Scholarly Editing: The Annual of the Association for Documentary Editing is freely
+                     distributed by the Association for Documentary Editing and licensed under a
+                     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                     License.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for Documentary Editing</title>
+            <respStmt>
+               <resp>Co-Editor in Chief</resp>
+               <name>Noelle Baker</name>
+               <name>Kathryn Tomasek</name>
+            </respStmt>
+            <respStmt>
+               <resp>Consulting Editor</resp>
+                  <name>Silvia Glick</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Managing Editor</resp>
+               <name>Robert Riter</name>
+               <name>Jenifer Ishee</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <resp>Micro-Editions Editor</resp>
+               <name>Raffaele Viglianti</name>
+            </respStmt>
+            <idno type="vol">41</idno>
+            <idno type="ISSN">2167-1257</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Louisiana Historical Center</institution>
+                  <idno>1795-05-02-01</idno>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               Facsimle available online at the Louisiana Colonial Documents Digitization Project.
+               <ref target="https://www.lacolonialdocs.org/document/17298">https://www.lacolonialdocs.org/document/17298</ref>.
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <xi:include href="shared/keywords.xml"/>
+    </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p>In 1793 the wealthy financier <persName ref="#kl139">Julien de Lallande Poydras</persName> was being sued by a Black-Native woman, <persName ref="#kl141">María Juana</persName>, for the freedom of <seg ana="#kinship">her two adult children</seg> enslaved by him: a <emph xml:lang="fr">griffe</emph> woman, <persName ref="#kl142">Marie</persName>, and a man named <persName ref="#kl138">Antoine Sarrazin</persName>. Fathered by his <persName ref="#kl143">mother</persName>'s former enslaver, <persName ref="#kl138">Antoine</persName> appears interchangeably as <emph xml:lang="es">mestizo</emph> and <emph xml:lang="es">mulato</emph> on various records, implying the fluidity of racial constructs during this period. <persName ref="#kl141">María Juana</persName>'s <emph xml:lang="fr">griffe</emph> <seg ana="#kinship">sister, <persName ref="#kl144">Cécilia</persName></seg>, had <seg ana="#manumission">successfully sued for her freedom</seg> on the basis of her Indian ancestry just a few months prior, but the case on behalf of these children failed. <persName ref="#kl139">Poydras</persName> had flatly told the audiencia at <placeName>New Orleans</placeName> that Spanish laws forbidding the enslavement of Indigenous people simply did not apply to <placeName>Louisiana</placeName>, or to him.
+            </p>
+            <p>As insurrections and revolutionary fervor swept across <placeName>the Americas</placeName>, enslaved people in <placeName>Louisiana</placeName> also began to envision their own free republic. For his part, <persName ref="#kl138">Antoine</persName> countered his unfreedom by becoming a key conspirator in the 1795 <placeName>Pointe Coupée</placeName> revolt, which originated on <placeName><persName ref="#kl139">Poydras</persName>'s plantation</placeName>, where <seg ana="#kinship">he and his sister <persName ref="#kl142">Marie</persName></seg> were still enslaved. Hundreds of pages of depositions reveal the conspirators at <placeName>Pointe Coupée</placeName> had overheard men on a passing riverboat proclaim the fall of <placeName>Saint-Domingue</placeName> and announce that the <persName ref="#kl140">King of France</persName> had <seg ana="#manumission">freed all the slaves</seg>. Believing this applied to them and that they were being falsely held, the conspirators planned to burn down their plantations, kill anyone who would come to stop them, take their weapons, and then <seg ana="#fugitivity">liberate themselves and all their compatriots</seg> along the way.</p>
+            <p>Unfortunately for the enslaved people of <placeName>Spanish Louisiana</placeName>, the <persName ref="#kl140">King of France</persName>'s declaration did not apply to them, and fifty-seven men and women from <placeName>Pointe Coupée</placeName> would be tried, convicted, and sentenced. For "the crime of revolution and conspiracy to kill all the whites," <persName ref="#kl138">Antoine</persName> and twenty-two others were hanged and ritually decapitated, their heads placed on pikes on <placeName>the River Road</placeName> as examples for all to see.<ptr target="#n0"/>
+            </p>
+         </abstract>
+      </profileDesc>
+   </teiHeader>
+   <standOff>
+    <xi:include href="shared/people.xml"/>
+  </standOff>
+  <text xml:lang="fr">
+      <body>
+         <div>
+            <head type="main">Extrait de l'Examen des esclaves à <placeName>Pointe Coupée</placeName>
+            </head>
+            <head type="sub">10-16 mai 1795</head>
+
+            <head>Transcription</head>
+  
+            <pb facs="1795-05-02-01-112"/>
+            <head type="sub">I. Déclaration d'<persName ref="#kl138">Antoine Sarrasin</persName> Esclave du <persName ref="#kl139">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> Poédras</persName>:</head>
+            <head type="sub">10 mai 1795</head>
+  
+           <p>
+               <lb/>Consécutivement avons fait comparraître
+              <lb/>Le nommé <persName ref="#kl138">Antoine Sarrasin</persName> Mulatre 
+              <lb/>Esclave au <persName ref="#kl139">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> Poédras</persName> &amp; après lui
+           </p>
+  
+            <pb facs="1795-05-02-01-113"/>
+           <p>
+               <lb/>avoir fait faire Son Serment par Dieu 
+              <lb/>&amp; la Sainte Croix de dire lavérité Sur
+              <lb/>ce qu'on lui demandera &amp; les cites <seg ana="#kinship">dedivers 
+              <lb/>nègres</seg> il a répondu que…
+           </p>
+  
+           <p>
+               <lb/>Intérogé Surla Cite <seg ana="#kinship">du sauvagesses <supplied reason="clarity">
+                     <persName ref="#kl145">Françoise</persName> et <persName ref="#kl146">Madelaine</persName> de <placeName>la plantation de <persName ref="#kl148">Riché</persName>
+                     </placeName>
+                  </supplied>
+               </seg> il
+              <lb/>répond que non, Il répond l'interoge… 
+           </p>
+  
+           <p>
+               <lb/>Intérogé Sur la Cite de <persName ref="#kl147">
+                  <abbr>J.<hi rend="sup">n</hi>
+                  </abbr> Baptiste</persName> 
+              <lb/>que lui a été luë il dit qu'elle est vrai 
+              <lb/>&amp; que quelques jours avant Pâques d.<hi rend="sup">e</hi> Le dit 
+              <lb/>
+               <persName ref="#kl147">
+                  <abbr>J.<hi rend="sup">n</hi>
+                  </abbr> Baptiste</persName> était <seg ana="#kinship">venu à son <supplied>chantier</supplied>
+               </seg> &amp; lui dit 
+              <lb/>qu'on parlait qu'on <seg ana="#manumission">devait donner laliberté 
+              <lb/>aux Esclaves</seg> &amp; qu'en cas quel'on nevoulait
+           
+        <pb facs="1795-05-02-01-114"/> 
+              <lb/>pas laleur donner <seg ana="#fugitivity">ils étaient allés grans 
+              <lb/>pour la prendre</seg> en tuant les blancs &amp; de 
+              <lb/>quoi le déclarant est convenu, &amp; qu<ex>'</ex>il était 
+              <lb/>de Son Parte Il répond.
+           </p>
+  
+            <pb facs="1795-05-02-01-115"/>
+           <p>
+               <lb/>Intérogé Sur la cite de <persName ref="#kl149">Petit Pierre</persName> &amp; 
+              <lb/>que l'on lui a luë il dit qu'elle est vraie 
+              <lb/>et qu'effectivement, <seg ana="#kinship">ont été convenu d'attendre</seg> 
+              <lb/>
+               <persName ref="#kl150">Noël</persName>, <persName ref="#kl151">Coffé</persName>, &amp; <persName ref="#kl152">Charles</persName> négres, <persName ref="#kl147">
+                  <abbr>J.<hi rend="sup">n</hi>
+                  </abbr> Baptiste</persName> 
+               <abbr>m.<hi rend="sup">re</hi>
+               </abbr>
+              <lb/>qui <seg ana="#fugitivity">devai<supplied reason="clarity">en</supplied>t apporter fusils, poudres, &amp; Ballu</seg> 
+              <lb/>Il répond…
+           </p>
+           
+           <pb facs="1795-05-02-01-116"/>
+           <p>
+              <lb/>Intérogé S'il n'y apoint quelques blancs 
+              <lb/>ou Gens de couleur Libre qui se fusse 
+              <lb/>m<supplied reason="clarity">ê</supplied>lé dans ce complot ou qui lui eussent 
+              <lb/>parlé deliberté il dit que oui 
+              <lb/>qu'environ deux mois il avait passé unbateau
+              <lb/>qui allait aux <placeName>Natchés</placeName> dont le Patron était 
+              <lb/>
+               <persName ref="#kl100">
+                  <expan>Pierre Can<ex>tr</ex>elle</expan>
+               </persName>, &amp; que <seg ana="#kinship">deux mulâtres</seg> dont l'un
+              <lb/>se nommait <persName ref="#kl153">Géorge</persName> Aiderait a <persName ref="#kl154">
+                  <abbr>M<hi rend="sup">me</hi>
+                  </abbr> 
+                  <abbr>V<hi rend="sup">ve</hi>
+                  </abbr> 
+                  <lb/>Moran</persName> demeurant au <placeName>Bayou <abbr>S.<hi rend="sup">t</hi>
+                  </abbr> Jean</placeName> &amp; 
+              <lb/>l'autre nommé <persName ref="#kl155">Dominique</persName>, qu'ils leurs ont 
+              <lb/>dit que <seg ana="#manumission">toutles Esclaves étaient tous fait
+              <lb/>libres</seg> par <persName ref="#kl140">le Roy <supplied reason="clarity">de France</supplied>
+               </persName>… 
+           </p>
+  
+           <p>
+              <lb/>N'ayant plus rien à dire &amp; avoir entendu 
+              <lb/>Lire toutes ainsi que Sa déclaration il adit 
+              <lb/>que c'était la pure Vérité qu'il est âgé 
+              <lb/>de trente huit ans, &amp; ne Sachant signer 
+              <lb/>nous l'avons fait avec les témoins donnéla 
+              <lb/>&amp; l'assesseur detout quoi donnons foi…
+           </p>
+  
+           <p>
+               <lb/>
+               <supplied reason="clarity">Signé,</supplied> 
+               <lb/>
+               <persName ref="#kl156">Duparc</persName>, <persName ref="#kl157">Vahamonde JB</persName>, <persName ref="#kl158">
+                  <abbr><emph xml:lang="es">Lic.<hi rend="sup">do</hi></emph>
+                  </abbr> Serrano</persName>,
+             <lb/>
+               <persName ref="#kl159">Beauvais</persName>, <persName ref="#kl160">J. Jarreau</persName>, <persName ref="#kl161">P. Hubert</persName>
+            </p>
+         </div>
+  
+         <div>
+            <head type="sub">II. Confession de <persName ref="#kl138">Antoine Sarrasin</persName> au <persName ref="#kl139">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> Poédras</persName>:</head>
+            <head type="sub">16 mai 1795</head>
+        
+            <pb facs="1795-05-02-01-209"/>
+           <p>
+               <lb/>Conséqutivement avons fait comparraître un  
+              <lb/>(nommé <persName ref="#kl138">Antoine Sarrasin</persName>) se lié un mulâtre pour cette 
+              <lb/>affaire à qui après avoir reçu Son Serment par Dieu et la
+              <lb/>
+               <abbr>S.<hi rend="sup">te</hi>
+               </abbr> Croix dans la forme ordinaire l'avons intérogé
+              <lb/>S'il est vrai qu'il s'appelle <persName ref="#kl138">Antoine Sarrasin</persName> 
+               <abbr>E.<hi rend="sup">ve</hi>
+               </abbr> 
+              <lb/>au <persName ref="#kl139">
+                  <abbr>S<hi rend="sup">r</hi>
+                  </abbr> Poédras</persName>, pour quel motif il est arrêté de qu'elle 
+              <lb/>nation il est, S'il est marié &amp; quel est son maîtier.
+              <lb/>Il répond 
+  
+           <pb facs="1795-05-02-01-210"/>
+              <lb/>(qu'il est vrai) qu'il est vrai qu'il S'appelle <persName ref="#kl138">Antoine
+              <lb/>Sarrasin</persName> qu'il est <seg ana="#kinship">créole a <placeName>
+                     <expan>ce<ex>tte</ex>
+                     </expan> Poste</placeName>
+               </seg> qu'il est arrêté 
+              <lb/>pour <seg ana="#kinship">l'affaire du complot des nègres</seg> pour <seg ana="#fugitivity">massacrer 
+              <lb/>Les blancs</seg>, que son métier est deservir son maître
+              <lb/>
+               <persName ref="#kl139">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> Poédras</persName> &amp; qu'il est garçon…
+           </p>
+  
+           <p>
+               <lb/>Intérogé S'il se souvient avoir déclaré sur 
+              <lb/>cette affaire &amp; S'il ratifie sa déclaration folio  
+              <lb/>cinquente quatre et lui ayant été Luë (Il ajoute que) 
+              <lb/>il adit qu'il n'a ajoute n'i diminuer seulement 
+              <lb/>que les nommés <persName ref="#kl162">André</persName> au <persName ref="#kl163">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> Colin Lacour</persName>, <persName ref="#kl164">Honnoré</persName> 
+              <lb/>au <persName ref="#kl165">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> Croiset</persName>, <persName ref="#kl166">Michèl</persName> au <persName ref="#kl167">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> 
+                  <abbr>Ch.<hi rend="sup">s</hi>
+                  </abbr> Duffour</persName>, <persName ref="#kl168">Isidore</persName> 
+              <lb/>au <persName ref="#kl167">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> 
+                  <abbr>G.<hi rend="sup">es</hi>
+                  </abbr> Bergeron</persName>, <persName ref="#kl170">Pierrot</persName> au <persName ref="#kl171">Sieur Patin</persName>, <persName ref="#kl174">
+                  <abbr>J.<hi rend="sup">n</hi>
+                  </abbr> Louis
+              <lb/>Mina</persName>, <persName ref="#kl172">André</persName> &amp; <persName ref="#kl175">grand Charles</persName> aux <persName ref="#kl139">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> Poédras</persName>, &amp; <persName ref="#kl173">grand
+              <lb/>Joseph</persName> au <persName ref="#kl163">
+                  <abbr>S.<hi rend="sup">r</hi>
+                  </abbr> Colin Lacour</persName>, étaient aussi <seg ana="#fugitivity">ducomplot 
+              <lb/>pour tuer les blancs</seg>, &amp; qu'il ratifie sa déclaration.
+           </p>
+  
+           <p>
+               <lb/>Intérogé pour quoi le déclarant est prête &amp; a
+              <lb/>
+               <seg ana="#fugitivity">attenté à la révolution pour tuer les blancs</seg> de quoi 
+              <lb/>ont lui fait charge Sachant qu'il <seg ana="#wellness">méritait d'être
+              <lb/>pendu</seg> Il a répondre qu'il connaît Son crime et la 
+              <lb/>peine &amp; qu'il y a consente par de mauvais conseils  
+              <lb/>&amp; ne Sachant signer l'avont fait avec l'assesseur &amp;
+              <lb/>les témoins d'assistaner de tout quoi donnons foi. 
+           </p>
+  
+           <p>
+               <lb/>
+               <supplied reason="clarity">Signé,</supplied> 
+              <lb/>
+               <persName ref="#kl156">
+                  <expan>
+                     <ex>Shérif Guillaume</ex> Duparc</expan>
+               </persName>, <persName ref="#kl157">
+                  <expan>
+                     <ex>Sieur Capitaine José Vasquez</ex> Vahamonde</expan>
+               </persName>, <persName ref="#kl158">
+                  <expan>
+                     <ex>Avocat Manuel</ex> Serrano</expan>
+               </persName>,
+              <lb/>
+               <persName ref="#kl159">
+                  <expan>
+                     <ex>Jean-Baptiste</ex> Beauvais <ex>Père</ex>
+                  </expan>
+               </persName>, <persName ref="#kl160">
+                  <expan>J<ex>ean</ex>
+                  </expan> Jarreau</persName>, <persName ref="#kl161">
+                  <expan>P<ex>ierre</ex> Hubert <ex>dit LaChapelle</ex>
+                  </expan>
+               </persName>
+           </p>
+         </div>
+      </body>
+      <back>
+         <noteGrp>
+            <note xml:id="n0" n="1">
+               <bibl>
+            Leila K. Blackbird, <title level="a">'It Has Always Been Customary to Make Slaves of Savages': The Problem of Indian Slavery in Spanish Louisiana Revisited, 1769-1803,</title> 
+                  <title level="j">William and Mary Quarterly</title> 80, no. 3 (July 2023): 525–58, <ref target="https://doi.org/10.1353/wmq.2023.a903166">DOI: 10.1353/wmq.2023.a903166</ref>.
+            </bibl>
+            See also
+            <bibl>
+            Brian Wagner et al., <title level="a">Louisiana Slave Conspiracies</title>, University of California, Berkeley, https://lsc.berkeley.edu/ (last updated August 23, 2023).
+            </bibl>
+            </note>
+         </noteGrp>
+      </back>
+   </text>
+</TEI>

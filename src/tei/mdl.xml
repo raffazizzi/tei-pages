@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_se-gibson.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../tei_se-gibson.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">Whirling Around Mexico (selection)</title>
+            <author>Mabel Dodge Luhan</author>
+            <editor>Christina T. Gibson</editor>
+            <respStmt>
+               <resp>Transcription, editing, and encoding</resp>
+               <name>Christina T. Gibson</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Scholarly Editing: The Annual of the Association for Documentary
+               Editing</authority>
+            <address>
+               <addrLine>http://www.scholarlyediting.org</addrLine>
+            </address>
+            <publisher>Association for Documentary Editing</publisher>
+            <date>2022</date>
+            <idno type="file">mdl</idno>
+            <idno type="edition">mdl</idno>
+            <availability>
+               <p>Scholarly Editing: The Annual of the Association for Documentary Editing is freely
+                  distributed by the Association for Documentary Editing and licensed under a
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                  License.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+               Editing</title>
+            <respStmt>
+               <resp>Co-Editor in Chief</resp>
+               <name>Noelle Baker</name>
+               <name>Kathryn Tomasek</name>
+            </respStmt>
+            <respStmt>
+               <resp>ADE Director of Publications and Consulting Editor</resp>
+               <name>Silvia Glick</name>
+            </respStmt>
+            <respStmt>
+               <resp>Managing Editor</resp>
+               <name>Robert Riter</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <resp>Micro Editions Editor</resp>
+               <name>Raffaele Viglianti</name>
+            </respStmt>
+            <idno type="vol">39</idno>
+            <idno type="ISSN">2167-1257</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United States of America</country>
+                  <region>Connecticut</region>
+                  <settlement>New Haven</settlement>
+                  <institution>Yale University</institution>
+                  <repository>Beinecke Library</repository>
+                  <collection>Mabel Dodge Luhan papers</collection>
+                  <idno>YCAL MSS 196, Box 56, Folder 1422</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="p1" n="1"/>
+         <head>Thirteenth Chapter (Continued)</head>
+         <div>
+            <p> It ended by <sic>by</sic> boarding the night train from
+                     <placeName><corr>Veracruz</corr></placeName> and leaving <persName ref="#TL"
+                  >Tony</persName> there to meet <persName ref="#IR">Ida's</persName> boat. I just
+               couldn't stand another night in that vile town!</p>
+            <p>
+               <q>Adiós! adiós, Señora, Generál</q> cried the obsequious porters as they saw me off.
+               Every one called <persName ref="#TL">Tony</persName>
+               <q>Generál</q> down there on account of his boots! </p>
+            <p> The train was to leave at seven o'clock and seemed all ready to start, but the
+               porter came in and said: <q>Well, we don't go until 11 or 12!</q>
+               <q><emph>Why?</emph></q> I exclaimed. <q>Oh we've just heard of a passenger train
+                  that is bringing in some more people who want to go to <placeName>Mexico
+                     City!</placeName></q>
+            </p>
+            <p> That's the kind of schedule they keep here! I dined, went to bed and to sleep before
+               we left, but we didn't get in until one o'clock next day! </p>
+            <p>
+               <placeName>San Ángel Inn</placeName> seemed a Paradise after my week of rain and discomfort. 
+They told me that when the earthquake hit them, the great concrete fountain in the patio here swayed from sided to side splashing the water up in the air and threw all the gold fish out on the ground! 
+But this old stone monastery is so solid it never cracked.
+     </p>
+            <p>
+Sunday night, <persName ref="#FT1">Frank</persName>, who had returned from
+                  <placeName>Jalapa</placeName> in the morning, and I went down to meet <persName
+                  ref="#TL">Tony</persName> and <persName ref="#IR">Ida</persName>. In the
+                  <corr>confusion</corr> of sorting out the valises at the train and trying to
+               prevent the cargodores from running away with them, I saw a tall, fair <pb facs="p2"
+                  n="2"/> man standing at one side and tentatively bowing to me when he caught my
+               eye. I recognized him from his photographs which had been in every newspaper here for
+               weeks advertising his arrival. It was <persName ref="#LS">Stokowski</persName>, the
+               great conductor of the <placeName>Philadelphia</placeName> Symphony Orchestra. So I
+               went up to him and he told me he had never forgotten his visit to my place in
+                  <placeName>Taos</placeName> and had known me because I had joined <persName
+                  ref="#TL">Tony</persName> who was on the train with him. He was just up from
+                  <placeName>Yucatán</placeName> for a few weeks here and had a letter to me - had
+               already made friends with <persName ref="#IR">Ida</persName> and <persName ref="#TL"
+                  >Tony</persName>. <persName ref="#FT1">Frank</persName> joined us saying he had a
+               letter from <persName ref="#JD">John <corr>Davey</corr></persName> telling him to
+               look out for <persName ref="#LS">Stokowski</persName> and help <corr>him</corr> see
+               things. He was very attractive and charming and I invited him to lunch the following
+               Tuesday, and also <persName ref="#FT1">Tannenbaum</persName> and <corr>we</corr>
+               separated. He had a busy little American woman named <persName ref="#FFP">Mrs.
+                  Payne</persName> acting as cicerone for him. I had read in both the American and
+               Mexican papers that he was coming here to look for indian music and I had written
+                  <persName ref="#FC"><choice><corr>Frank Crowninshield</corr><sic>Frank
+                        Crownshield</sic></choice></persName> who, it was reported, was coming also,
+               that the only indian music around here was <persName ref="#TL">Tony's</persName>, so
+               I understood his eagerness to be friends. </p>
+         </div>
+         <div>
+            <p> We had a lovely sunny party in the Patio on Tuesday and <persName ref="#FT1"
+                  >Frank</persName> brought <persName ref="#MS">Professor Moisés Sáenz</persName>
+               along. This last was a splendid looking man, strong and dark and full of a kind of
+               valor. He was minister of Education before, but is now at the head of Public Health
+               and Charities. </p>
+            <p> We had some fine talk at lunch and the meal was exquisite. <persName ref="#MR"
+                  >Madame Roux</persName> made her appearance at our table, full of compliments and
+               flattery for <persName ref="#LS">Stokowski</persName> for she adores distinguished
+               visitors and before lunch was over we saw a photographer sneak in with a camera and
+               its tripod, and hide behind a vine hung pillar and she had undoubtedly had him
+               telephoned for to get the <q>group</q>
+               <pb facs="p3" n="3"/> to add to her really historical collection of diners that hangs
+               around the patio. As <persName ref="#MS">Sáenz</persName> said, one can reconstruct
+               the whole past from those photographs of hers! Before they left <persName ref="#FT1"
+                  >Frank</persName> mentioned that he was about to arrange a meeting between
+                  <persName ref="#TL">Tony</persName> and <persName ref="#CC"
+                        ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName>, who is
+               the Director of the Mexican Symphony Orchestra and a great modernist. I have
+               forgotten to tell that <persName ref="#LS">Stokowski</persName> came here to direct
+                  <persName ref="#CC"
+                  ><choice><corr>Chávez's</corr><sic>Chaves'</sic></choice></persName> orchestra
+               because he admires <persName ref="#CC"
+                        ><choice><corr>Chávez's</corr><sic>Chaves'</sic></choice></persName>
+               compositions so much and in fact came to lunch directly from rehearsal. When
+                  <persName ref="#FT1">Frank</persName> said that <persName ref="#LS"
+                  >Stokowski</persName> said that <persName ref="#TL">Tony</persName> had promised
+               on the train to sing for him <emph>too</emph>, we asked him to join us for that
+                  <persName ref="#CC"
+                  ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName> evening. He said
+               he was meeting <persName ref="#CC"
+                     ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName> at six
+               o'clock that same day, so <persName ref="#FT1">Frank</persName> said we might as well
+               try to get together that night and they could just bring <persName ref="#CC"
+                        ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName> along here
+               about eight o'clock. It was 2:30 then, so they said they couldn't face any more food
+               that day after the marvelous meal we had just put away. In fact it <emph>was</emph> wonderful. 
+We had for Hors d'oeuvres - salad of avocado and a pâté de <del>Fail</del><add>Foie</add> gras - cream of Spinach soup, white fish with Burgundy sauce, filet of beef with string beans, 
+duckling cooked in orange juice with watercress salad and a miraculous strawberry tart, with Dubonnet for the aperitif, graves superior iced, through the meal and green chartreuse with the coffee. 
+Naturally no one could think of an evening meal! I said, <q>Oh, we can order some
+                  chocolate and sandwiches if we need them</q>, and they departed, all promising to
+               come back, bringing <persName ref="#CC"
+                     ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName>, and
+                  <persName ref="#MS">Sáenz</persName> was to bring <q><persName ref="#MD">Mary,</persName></q> 
+for after all the party for <persName ref="#TL">Tony</persName> and <persName ref="#CC"
+                        ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName> had been
+               originally planned to take place in her house and she'd hate to miss it. </p>
+            <p> I had been much interested in getting <persName ref="#TL">Tony</persName> to sing
+                  <pb facs="p4" n="4"/> for <persName ref="#CC"
+                        ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName> to watch
+               the lattter's reaction because he <emph>thinks</emph> these indians here have indian
+               music and <emph>we</emph> know they haven't, and as he has based some of his most
+               modern work on what he <emph>calls</emph> indian music, I wanted to see what he'd say
+               when he really heard some! </p>
+            <p> We were exhausted after the lunch was over and <persName ref="#LS"
+                  >Stokowski</persName> and little <persName ref="#FFP">Mrs. Payne</persName> (very
+               calculating and busy minded) had left for an <q>important meeting</q> in the city, 
+and we just lay around all the afternoon. About five o'clock I sent for the maître d'hôtel  and told him a few friends were coming for the evening and he must prepare a small table in the library and have about 
+fifty very tiny sandwiches made of pâté de fois gras and caviare, and I gave him two bottles of Pommery (sec) to put on the ice. I said: <q>Just put the plates and glasses and cups for coffee on the table, and
+                  serve us where we sit - no one will want much - make the table nice with flowers
+                  and put this in the centre,</q> and I gave him my precious, unique, and
+                  <emph>only</emph> example of a mexican band in a band stand made in colored
+               straws, with its tiny director standing in the centre! I never <corr>saw</corr> but
+               that one and it was <emph>too</emph> amusing - and extremely suitable as a
+               decoration! </p>
+         </div>
+         <div>
+            <p> We are so used to going to bed early evenings and reading that we all three felt
+               lugubrious when we went downstairs at eight o'clock. There was the table all set for
+               exactly ten people for a meal! One <emph>never</emph> gets what one orders here, but it looked terribly attractive with that bandstand raised up above a wreath of flowers. 
+Two bottles of champagne stood <corr>discretely</corr> in buckets of ice on
+               a side table and the fire was blazing. </p>
+            <p>
+               <q>Suppose nobody comes and here we sit,</q> said <persName ref="#IR">Ida</persName>.
+                  <q>They <pb facs="p5" n="5"/> may not find <persName ref="#CC"
+                           ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName> is free
+                  for tonight.</q>
+            </p>
+            <p>
+               <q>I don't feel like giving my songs to them mexicans.</q> said <persName ref="#TL"
+                  >Tony</persName>. <q>I guess I go down town.</q>
+               <q>I guess you don't,</q> I answered crisply. <q>Let's warm up the drum.</q> And I
+               set it in front of the fire. </p>
+            <p>
+               <persName ref="#MR">Madame Roux</persName>, enormous in an english tweed coat and skirt stuck her head in the door.
+</p>
+            <p>
+               <q>Does the table please you?</q> she asked in French. </p>
+            <p>
+               <q>It's lovely. Do come in this evening.</q> I added, <q>and hear the music</q>
+               <q>And monsieur too</q> I said looking at the small shattered old man who is her beau
+               and from whom <persName ref="#PV">Pancho Villa</persName> removed half a million head
+               of cattle some years ago, up in <del>Chinavah</del>
+               <add>Chimalhuacán</add>. 
+               <q>I have never heard him - I long to hear that musique indienne - merci bien. . .</q> She disappeared and we fell into silence. 
+The maître d'hôtel  dashed in and out with an anxious face, longing to bring in his little sandwiches and still nobody came.
+<q>Oh dear! Think of 50 sandwiches we will have to eat up,</q> I sighed!
+                  <persName ref="#UJ">Una</persName> floated into the room in evening dress looking
+               aloof. She had spend the last six weeks trying to meet <persName ref="#CC"
+                        ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName> with all
+               kinds of letters from <persName ref="#BC">Senator Cutting</persName>, etc. and he'd
+               never answered her notes. She was feeling coldly towards him but still she couldn't
+               decide not to come, and besides, she'd known <persName ref="#LS">Stokowski</persName>
+               years ago. She joined our lovely little group around the fire and stared at the long
+               empty room and so we just sat there awhile. </p>
+            <p> Then came a little tap at the door. The night watchman stuck his head in looking
+               scared. <q>Some people come,</q> he said. I went to the door and outside in the Patio
+               stood two strangers - two women, one in Chinese costume and the other in an old
+               embroidered <pb facs="p6" n="6"/> muslin spanish dress. Behind them stood a crowd of
+               mexicans in enormous straw hats, white cotton suits with sashes, and bare feet in
+               huaraches. They all carried home made guitars, mandolins, fiddles and cellos. The two
+               young women came right on in smiling and the men followed them. <q>Maybe we're
+                  late</q> one of the women said, <q>It must be half past eight.</q> I shook hands
+               all around while my own group stared at us from the other end of the room. I
+               determined not to be flustered and so I said gaily: <q>Well who are you anyway?</q>
+               <q>Oh, I am <persName ref="#FT2">Frances Toor</persName> and this is <persName
+                     ref="#CM"><choice><corr>Concha Michel</corr><sic>Maria
+                     Concha</sic></choice></persName>. <persName ref="#ECP">Elsie</persName> told me
+                  to look you up and I got your letter of introduction from <persName ref="#PK"
+                           ><choice><corr>Paul Kellogg</corr><sic>Paul
+                     Kellog</sic></choice></persName>, you know.</q>
+               <q>Oh yes,</q> I said. The Mexicans stood around and she said, <q>Shall we put some
+                  chairs down here for them?</q> So we did. There were twelve of them, and they
+               looked swell in a row at the end of the room which now did not look so empty. They
+               looked exactly like the straw figures in my darling straw bandstand in the centre of
+               the table. </p>
+            <p>
+I got everybody introduced and a tap came at the door. It was the maître d'hôtel looking as tho he would burst, carrying in a platter of tiny triangles of toast spread with things. 
+He made as if to pass them to those Mexicans who were eyeing them hungrily. <q>No. No.</q> I whispered to him, <q>wait - our <emph>friends</emph> have
+                  not come yet.</q> I asked <persName ref="#FT2">Frances Toor</persName> what the
+               men would like and she said <q>Cognac,</q> so the waiter hurried out for it. Then the
+               crowd surged in, <persName ref="#FT1">Frank</persName> leading them. <q>I hope you
+                  have something for us to eat</q> he whispered - <q>We've none of us had a bite since noon.</q> A cold looking, dark, young man came in bowing, another followed, handsome, <persName ref="#FFP">Mrs. Payne</persName> came next, pale and worn out
+               with her <pb facs="p7" n="7"/> struggles, <persName ref="#LS">Stokowski</persName>
+               smiling and fresh in a light <corr>gray</corr> suit, a jolly girl followed who
+               clasped my arm: <q>I am <emph><persName ref="#MD">Mary</persName></emph></q> she exclaimed. <persName ref="#MS"
+                  >Sáenz</persName> strolled after her, large and courageous looking, and at the
+               rear <persName ref="#MR">Madame Roux</persName> and <persName ref="#DC">Don
+                  Carlos</persName>, and <persName ref="#MR">Madame's</persName> neice, <persName
+                  ref="#M">Madeline</persName>. 
+</p>
+            <p> The <corr>room</corr> was full and that table couldn't hold the half of them. As for
+               those fifty triangles! Well! </p>
+            <p>
+               <q>Have you met <persName ref="#CC"
+                        ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName>?</q> asked
+                  <persName ref="#FT1">Frank</persName>, bringing up the cold dark young man who
+               smiled coldly and shook hands. The mexicans who had had theirs, suddenly struck up a
+               deafening tune that sounded like a barn dance. No one could <corr>make</corr> anyone
+               hear a word, and I tried in vain to direct the waiter to give everybody a plate and
+               then open up the wine, get some <emph>more</emph> plates and some <emph>more</emph>
+               glasses - to <emph>pass</emph> the <corr>sandwiches</corr> - to get going in fact. He
+               was overcome by his responsibility, and dashing out of the room he
+                        <choice><sic><emph>staid</emph></sic><corr><emph>stayed</emph></corr></choice>
+               out. Everyone was looking absolutely starved and <persName ref="#FFP">Mrs.
+                  Payne</persName> had partially collapsed from fatigue in a large chair.
+                     <q><persName ref="#FT1">Frank</persName>, for heaven's sake open one of
+                     <corr>those</corr> bottles, will you, and pass the wine.</q>
+               <q><emph>I</emph> don't know how to open Champagne,</q> said <persName ref="#FT1"
+                  >Frank</persName> cheerfully, <q>Where's that waiter gone?</q>
+               <q>He's <emph>gone</emph> that's all I know,</q> I answered. I ran over to <persName
+                  ref="#MR">Madame!</persName>
+               <q>Madame - il nous <corr>faut</corr>
+                  <corr>encore</corr> des <corr>sandwiches,</corr></q> I hissed in her ear - <q>all
+                  these people are hungry and <emph>look</emph> at those bits of food!</q>
+               <q>Yes, yes, we'll order some at <corr>once</corr>.</q> she bellowed above the music.
+                  <q>where is that waiter?</q>
+               <q>God knows,</q> I groaned. I went over to <persName ref="#IR">Ida</persName> and
+               sank into a chair beside her: <q>I can't do a thing about this,</q> I said in her ear,
+               as the Mexicans thrummed and thrummed. <persName ref="#IR">Ida</persName> was weak
+               from laughing. <q>No, the party has run away from you.</q> she cried . . <q>like a
+                  tame horse that you've been <corr>driving</corr> all your life!</q>
+            </p>
+            <p>
+               <pb facs="p8" n="8"/>The waiter came back and opened a bottle but didn't know what to
+               do next and I had to get the glasses all on a tray and tell him to fill them and pass
+               them and I carried one at once to <persName ref="#FFP">Mrs. Payne</persName> to
+               resuscitate her, which it did. It wasn't long before everyone had a glass of wine but
+               the two bottles were then empty and the sandwiches only went around once for everyone
+               took at least two of <corr>the</corr> tiny things. <q>Go and get some more
+                  sandwiches. <emph>Plenty</emph> of them, and two more bottles of wine,</q> I
+               ordered and kept ordering at intervals all through the evening. But sad to tell, all
+               he could produce were
+                  <emph><choice><corr>cheese</corr><sic>cheeze</sic></choice></emph> sandwiches, and
+               then the <choice><corr>cheese</corr><sic>cheeze</sic></choice> gave out and he came
+               in with a huge platter of buttered toast! But as there was all the Champagne that
+               anyone could drink, no one seemed to mind the peculiar dearth of food, after the
+               first bitter (I suppose) realization. </p>
+            <p> But all this time that I had been trying to organize <emph>that</emph> end of it,
+               the party had been going along of its own accord. <persName ref="#CM"
+                        ><choice><corr>Concha Michel</corr><sic>Maria
+                  Concha</sic></choice></persName> was singing Folk songs in a beautiful rich voice
+               and then she picked up her muslin skirts and danced a Járabe with one of the men - a
+               kind of spanish peasant dance. The music was loud but empty. It was nothing, really,
+               but Spanish echoes. Everyone was talking and laughing and not listening. <persName
+                  ref="#MR">Madame Roux</persName> was pouring Champagne on <persName ref="#TL"
+                  >Tony's</persName> head as he turned his back, to baptize him, she said. His eyes
+               after a couple glasses of champagne were beginning to snap, and in the interval of
+               Mexican music he snatched up his drum, made a low mocking bow to <persName ref="#LS"
+                  >Stokowski</persName>, announced shortly: <q>War Dance</q> and started to sing,
+               very loudly and better than I ever heard him. In an <corr>instant</corr> there was
+               silence - <persName ref="#LS">Stokowski</persName> put his glass down on the piano,
+                  <persName ref="#CC"
+                  ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName> turned around and stared, the Mexicans at the other end of the room leaned forward in their chairs, 
+their mouths open with surprise.
+</p>
+            <p>
+               <pb facs="p9" n="9"/>
+               <persName ref="#TL">Tony's</persName> song sounded strong, manly, passionate and
+               powerful after the empty, effete, noisy string music. It brought another world into
+               the room - something more alive and more vigorous, and at the same time more artful
+               than what had been there. <persName ref="#LS">Stokowski</persName> had talked at noon
+               about the crudity of our scale, the lack of subtlety and possibility in our notation
+               and in our instruments. <q>We can <emph>hear</emph> sixteenth and thirty-seconds</q>
+               he had said <q>we <emph>do</emph> hear them in nature but not in our music. The day
+                  must come when we shall be able to <emph>record</emph> a finer music - with finer
+                  tones - and we must make instruments for it.</q>
+            </p>
+            <p>
+               <persName ref="#TL">Tony</persName> was <emph>singing</emph> sixteenths and
+               thirty-seconds! His vocal cords are accustomed to render tones and modulations that
+               our voices cannot. The two directors focused on him with a peculiar intense
+               concentration. He finished in fine form with the shrill cockrel crow that they use
+               and with his drumstick suspended in the air, as he threw a funny look of bravado at
+                  <persName ref="#LS">Stokowski</persName> as much to say, <q>If you really want to
+                  hear something, there's a song!</q> Everyone in the room stamped and clapped with
+               excitement, the Mexicans as well, and the two directors rushed up to <persName
+                  ref="#TL">Tony</persName> and grabbed him. <q>But this is <emph>mag nif i
+                     cent</emph></q>exclaimed <persName ref="#LS">Stokowski</persName>. <q>I never
+                  knew there was anything like this.</q> The two musicians put their heads together
+               and began a technical frenzy of discussion. <persName ref="#MR">Madame's</persName> daughter rushed upstairs and dragged the two blameless daughters of the consul General out of bed 
+and brought them downstairs so they should not miss such an evening. <persName ref="#TL">Tony</persName> sang a collection of songs from
+               different tribes, and they never let him stop - but finally he came to an end and
+               raising his drumstick to the Mexicans at the end of the room he called in Spanish:
+                  <pb facs="p10" n="10"/>
+               <q>Now you, boys</q> and they flung themselves into a Spanish-indian fandango, <persName ref="#CM"><choice><corr>Concha Michel</corr><sic>Maria
+                     Concha</sic></choice></persName> singing and dancing it. They had now all had
+               their third round of cognac and they did their utmost to supercede the singing they
+               had just heard. They rocked and stamped and gave occassional yells. They made noise.
+               But it was empty. It lacked that strange religious fervor that true indian music has,
+               and which embues it with fascination and glamour, and more than all, stimulates and
+               excites and consoles those who listen to it, as though it would reassure and
+               strengthen a failing humanity. The musicians in the room listened more or less
+               politely to the Mexican band from <placeName>Jalisco</placeName> but they were not
+               interested. <persName ref="#FFP">Mrs. Payne</persName> murmured to me: <q>I love it
+                  so - I hate to think it is passing away!</q>
+               <q><emph>Is</emph> it</q> I asked incredulously. I could not see that it existed
+               sufficiently. <persName ref="#FT1">Frank</persName> came over to me beaming.
+                     <q><persName ref="#MDL">Mabel</persName> - I've passed many strange evenings,
+                  but this is the <emph>strangest</emph> evening I have ever known.</q> Later he
+               came and said, <q><persName ref="#CC"
+                        ><choice><corr>Chávez</corr><sic>Chaves</sic></choice></persName> is so
+                  excited over <persName ref="#TL">Tony</persName> he wants to go with <persName
+                     ref="#TL">Tony</persName> and me when we go to visit the <corr>Neyarite</corr>
+                  indians to hear him sing to them and see if they can come out with any old
+                     <emph>real</emph> indian music.</q>
+            </p>
+            <p> At the end of the evening, when everyone was leaving, I caught up my bandstand and
+               held it out to <persName ref="#LS">Stokowski</persName>, <q>I'm going to give it to you to remember the evening by,</q> I said. 
+<q>Can I have it? I love it, I'll
+                  always treasure it!</q> he exclaimed. Well I just had to give it to him - it was
+               so fitting an end to the party. What he wants more than anything else now is to come
+               to <placeName>Taos</placeName> and have <persName ref="#TL">Tony</persName> get some
+               boys and listen to their singing. Above all, to record it. <q>It <emph>must</emph> be
+                  recorded</q> he said. <q>It <emph>must</emph> be saved somehow.</q>
+            </p>
+            <p> During the evening I had tried to get <persName ref="#UJ">Una</persName> to sing
+               because it would have been so amusing - we would then have heard the <pb facs="p11"
+                  n="11"/> three great periods of music - the archaic, the modified and the new
+               modern form, but alas, there was no one to accompany her, for all the new music needs
+               a skilled pianist. </p>
+            <p> The party filed out, everyone paying compliments to everyone else. Everyone was in a
+               good humor but no one was drunk although there was quite a row of empty bottles along
+               the table. There had been too much emotion and mental stimulant dominating the party,
+               for wine to affect or overcome them. It had only sharpened the perceptions. </p>
+            <p>
+               <q>I guess indians got something people need,</q> said <persName ref="#TL"
+                  >Tony</persName> as he pulled off his boots! </p>
+         </div>
+         <pb facs="p12" n="12"/>
+         <div>
+            <head>Fourteenth Chapter</head>
+            <p> Getting tickets for the <q>extraordinario</q> symphony concert was difficult. All
+               the town was plastered with huge posters saying merely <q><persName ref="#LS"
+                     >Stokowski!</persName></q> On bill boards, booths, and even across church
+               doors, but when we tried to buy tickets we couldn't find out where they were sold.
+               Finally someone said they were on sale in a music store so we went and asked there on
+               a Thursday. Although the concert was to take place on Saturday night, no tickets yet!
+               The man said, <q>Tickets very slow in Mexico! Maybe tomorrow!</q> So after being out
+               all day in the country, we motored to town about four o'clock and the shop had only
+               just opened! Just the same, nearly all the tickets were gone already! In a small room
+               at the back of the store I found several people, <persName ref="#MD">Mary
+                  Doherty</persName>, <persName ref="#MS">Sáenz's</persName> Secretary among them.
+                  <persName ref="#FT1">Frank Tannenbaum</persName> had asked her to secure tickets
+               for us when she <corr>got</corr> hers though I didn't know this. </p>
+            <p> On a chair, leaning against the back of it, was a diagram of the theatre. People had
+               to get down on the floor and pick out the seats they wanted and stick pins in them.
+               We got seats rather far back, unfortunately. </p>
+            <p> We had an engagement to tea with <persName ref="#FT2">Frances Toor</persName> and
+               drove over to her apartment house. On the fifth floor she had the equivalent of a
+               pent house, with a parrot swinging at the front door. The building leaned over so
+               much that the floor sloped rapidly to one side. She had some rooms with cream walls
+               and all the doors and windows painted green, and there was a fine view over the city.
+               She is a rather coarse featured Russian Jewess who says she was never happy <pb
+                  facs="p13" n="13"/> till she came to Mexico, where everyone is so kind and
+               unselfconsciously smiling, and where one cannot be lonely. She has made a fine
+               collection in the seven years she has been here of old indian and mexican chests,
+               pottery, and textiles. She was rather mean about several people - for instance she
+               said <persName ref="#EG">Emma</persName> hadn't the poetry or the knowledge to write
+               the book she has gone home to write, and she said little <persName ref="#FFP">Mrs.
+                  Payne</persName> has got hold of several rich women in America and is exploiting
+               Mexico to them, selling things for $5.00 that cost her five cents, and selling the
+               paintings of poor young Mexican artists to them and taking 1/3 in commissions. </p>
+            <p> Suddenly she got a phone message and came back and told us that <persName ref="#LS"
+                  >Stokowski</persName> and <persName ref="#FK">Keppel</persName> (the head of the
+                  <corr>Carnegie</corr> Foundation) were about to be interviewed and <persName
+                  ref="#FFP">Mrs. Payne</persName> wanted her to come over to the Hotel Geneve - and
+               that she thought she'd better go! However, that her maid <persName ref="#L"
+                  >Leonora</persName> had prepared something for us and we must eat. We said we
+               would, and not to bother about us - she ran off and <persName ref="#L"
+                  >Leonora</persName> brought in a red and white paper tablecloth and spread the
+               table for a meal! We were aghast for we had had a hearty meal at two o'clock over in
+                     <placeName><corr>Toluca.</corr></placeName> Just the same, she served us with perfectly delicious enchiladas, puree of beans, large rolls and coffee, 
+followed by a jelly of exotic fruit and sweet cakes! We just couldn't eat. It was only five o'clock. <persName ref="#IR">Ida</persName> put hers in a paper napkin and carried it away
+               in her hand bag - so not to hurt any feelings. I toyed with mine - <persName
+                  ref="#TL">Tony</persName> did pretty well. When we were through we left - stuffed! </p>
+            <p> The concert was set for 9 o'clock but did not start until nearly 10. It was in a
+               large theatre and was very informal. There isn't a yard of red tape in this whole
+               country. The four sopranos and contraltos came in to join the orchestra and took ages
+                  <pb facs="p14" n="14"/> to get themselves fixed just right - their chairs, their
+               skirts and all. <persName ref="#CC">Chávez</persName> came in, bowed coldly to the
+               audience and faced his orchestra. He had a marvelous dress suit that moulded his
+               beautiful figure and from the back, baton raised, he looked like a Toreador. He gave
+               the <corr>Daphnis</corr> and Chloe of <persName ref="#JMR">Ravel</persName> and in a
+               flash one sensed how <emph>musical</emph> his orchestra is, how much more
+                  <emph>musical</emph> than ours. We did not seem to be hearing trained musicians
+               playing on fine instruments. It was a direct flow of pure sound, exquisitely alive -
+               with a vibration one does not get in America. It came into being like light, like
+               sunshine; it was elemental like fire or air - immediate and transforming to the
+               listener who perceived it directly like warmth and not through the brain as opinion
+               or appreciation. </p>
+            <p>
+               <persName ref="#CC">Chávez</persName> directing was one with the music. We had called
+               him inexpressive and cold! On his job he was not personal. It was not <persName
+                  ref="#CC">Chávez</persName> interpreting a musical score. He became the thing -
+               his body took the lines of the lyrical melody - he flowed into it and it flowed
+               through him. He was like the composition - infinitely graceful and poetic. He swayed
+               and his physique was capable of endless plastic subtleties. He poised himself like a
+               butterfly - his baton and his long fingers were like delicate antennae. The orchestra
+               passed itself out in shimmering waves. This was another dimension in symphonic
+               orchestration. We get nothing like it at home. </p>
+            <p>
+               <persName ref="#CC">Chávez</persName> followed this with a composition of his called
+               "Indian Ballet" in four parts, showing air, water, fire, and earth. In an interval
+               before he started the composition he stood before the orchestra - baton raised. His
+               lines had altered, grown severe- angular and archaic. His proud head sprang from his
+               high broad shoulders - sharp in outline and fierce like a piece of black volcanic <pb
+                  facs="p15" n="15"/> glass. His figure was archaic - with its narrow hips and long
+               straight legs. <persName ref="#IR">Ida</persName> whispered to me that he looked like a piece of Etruscan bronze but I saw the Aztec calligraphy, 
+the sharp, virile, dangerous Aztec speech, with its x's, tc's and yl's! 
+He started the men and instantly we were transported to another earlier world than this - of other purer elements, and incomprehensible motivations; a world where other powers than ours ruled over the earth, 
+where all the shapes were different. 
+I feel certain that no European can ever direct this music of <persName ref="#CC">Chávez</persName>. It takes one with his blood. 
+He has somehow gone back and touched the Aztec spring. The music had the configuration of the Codices and their bright colors. It was fierce, delicate, ruthless and completely different from anything I have ever heard or imagined. 
+That it contained motives that suggested a harmonious acceptance of blood sacrifice does not describe it. It was simply of another life. 
+As he directed it his back was all we have seen in antique and archaic sculptures here. He made one <emph>know</emph>
+               the Aztec era, and surely reading the colored picture writing of the Codices after
+               hearing and seeing that Indian Ballet one could come nearer its reality. This
+               experience was a rare one for me. To think of <persName ref="#CC">Chávez</persName>
+               and <persName ref="#DR"><corr>Rivera</corr></persName> coming out of Mexico - easily
+               the two greatest living artists! </p>
+            <p> There came an <corr>entracte</corr>. <persName ref="#TL">Tony</persName> went out
+               and returned having met the Mexican who was on the train from <placeName>El
+                  Paso</placeName> when we came. He told <persName ref="#TL">Tony</persName> he was
+               minister of <corr>education</corr> and to come soon to see him in his office. I asked
+                  <persName ref="#FT1">Frank</persName> who was there, who the minister is now. He
+               said <persName ref="#JMP">"Puig."</persName> My heavens! The man poor <persName
+                  ref="#UJ">Una</persName> has been trying to reach with letters from <persName
+                  ref="#BC">Cutting</persName> and from <persName ref="#GG">Governor
+                  Gomez!</persName> And he had been on that train and we never realized his
+               importance for her! Well, this is Mexico. <persName ref="#UJ">Una</persName> was
+               leaving the next morning for <placeName>New York</placeName>, 
+having given up all hope of making any connections to help her get <pb facs="p16" n="16"/>concerts here! </p>
+            <p> After ten minutes the audience reassembled and <persName ref="#LS"
+                  >Stokowski</persName> appeared, tall, elegant, charming, with his auriole of
+                  <corr>blond</corr> hair so nearly white. He bowed and then turned swiftly about
+               and summoned the orchestra to their feet in a loud triumphant blazing of the Mexican
+               National Anthem! In a flash, with one impulsive movement the audience was on its feet
+               cheering and they stood throughout the piece - Mexicans and <corr>Americans</corr>
+               mingled, smiling. It was a most charming and endearing gesture from <persName
+                  ref="#LS">Stokowski</persName>. He certainly makes a good ambassador from the
+               United States! </p>
+            <p> But Oh dear! <persName ref="#RW">Wagner</persName>, after <persName ref="#CC"
+                     ><corr>Chávez's</corr></persName> music seemed utterly passe and dead. 
+In vain he threw himself about stretching himself to his longest long lengths - he could get no life from either the composition or the orchestra! 
+They did not play like the same men at all. It was really boring, and there was too much contrast between his puppet like appearance, and <persName ref="#CC"><corr>Chávez's</corr></persName>
+               radiumistic, highly charged expressiveness. </p>
+            <p>
+               <persName ref="#LS">Stokowski</persName> is the greatest of his kind that we have in
+               America. In Mexico he seemed to lack oil, and the fire of human blood. He had
+               intellect, yes, and great elegance. But he did not surpise one with the mystery of
+               man's power. </p>
+            <p> There is great <emph>wonder</emph> here in <corr>this</corr> country. </p>
+         </div>
+      </body>
+   </text>
+</TEI>
