@@ -1,5 +1,5 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro';
 import Tei, {TeiBaseStyle} from 'astro-tei';
 export function getStaticPaths() {
   const files=['antoine-is-willing-to-burn-it-all-down_fr', 'BroughamReconstructed', 'edition', 'mdl', 'RdCv1n1-en', 'testTEI']
@@ -7,7 +7,7 @@ export function getStaticPaths() {
   );
 }
 const { page } = Astro.params;
-const teiFile = (await import(`../../tei/${page}.xml?raw`)).default;
+const teiFile = (await import(`../tei/${page}.xml?raw`)).default;
 
 ---
 <Layout title="Astro TEI demo">
