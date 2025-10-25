@@ -18,11 +18,18 @@
         <body>
             <schemaSpec start="TEI teiCorpus" ident="teipages">
                 
-                <elementSpec ident="ab" mode="change">
-                    <model behaviour="paragraph">
+                <!-- <elementSpec ident="ab" mode="change">
+                    <model behaviour="paragraph" predicate="ancestor::p">
                         <outputRendition>font-style: italics;</outputRendition>
                     </model>
-                </elementSpec>
+                </elementSpec> -->
+                <p>
+                    <elementSpec ident="ab" mode="change">
+                        <model behaviour="paragraph" predicate="ancestor::p">
+                            <outputRendition>font-style: italics;</outputRendition>
+                        </model>
+                    </elementSpec>
+                </p>
                 
                 <elementSpec ident="add" mode="change">
                     <!-- Some CSS somehwere defines:
