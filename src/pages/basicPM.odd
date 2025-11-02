@@ -25,7 +25,7 @@
                 </elementSpec> -->
                 <p>
                     <elementSpec ident="ab" mode="change">
-                        <model behaviour="paragraph" predicate="ancestor::p">
+                        <model behaviour="paragraph" predicate="ancestor::p" cssClass="mingyu">
                             <outputRendition>font-style: italics;</outputRendition>
                         </model>
                     </elementSpec>

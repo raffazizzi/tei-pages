@@ -9,10 +9,11 @@ export function getStaticPaths() {
 const { page } = Astro.params;
 const teiFile = (await import(`../tei/${page}.xml?raw`)).default;
 const css = ProcessOddPm();
-const
+const __TEI_BASE_ENABLED__ = true; // or false, depending on your logic
 ---
 <Layout title="Astro TEI demo">
 	<style set:html={css}></style>
+	
 	{__TEI_BASE_ENABLED__ && <TeiBaseStyle/>}
 	<main class="m-auto p-6 max-w-[65ch]">
 		<div class="shadow-2xl bg-amber-50 text-gray-700 p-4 mt-4 rounded-md tei-container">

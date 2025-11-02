@@ -16,6 +16,7 @@ export function ProcessOddPm() {
     let models = el.querySelectorAll('model');
     models.forEach(model => {
       let predicate = model.getAttribute("predicate");
+      let attClass = model.getAttribute("cssClass");
       let applicable = true;
       if (predicate){
         applicable = evaluateXPathToBoolean(predicate, el, null, {}, {});
@@ -131,11 +132,12 @@ export function ProcessOddPm() {
           console.log("i am an output rendition")
           outputRenditionCSS += `${outputRendition.textContent}\n`;
         });
-
-        console.log("I am here inside the final if condition");
+        if (attClass){
+          console.log("I am here inside the final if condition");
+          generatedCSS += `tei-${id}, .${attClass} {\n ${behaviourCSS} ${outputRenditionCSS}}\n`;
+        }
         generatedCSS += `tei-${id} {\n ${behaviourCSS} ${outputRenditionCSS}}\n`;
       }
-
     });
     
   });
