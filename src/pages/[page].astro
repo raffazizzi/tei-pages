@@ -1,23 +1,86 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import processTei from '../../node_modules/astro-tei/src/processTei.ts';
 import Tei, {TeiBaseStyle} from 'astro-tei';
 import { ProcessOddPm } from './processOddPm';
 export function getStaticPaths() {
-  const files=['antoine-is-willing-to-burn-it-all-down_fr', 'BroughamReconstructed', 'edition', 'mdl', 'RdCv1n1-en', 'testTEI']
-  return files.map(file => ({ params: { page: file },}));
+	// Names of all the XML files that we intend to host and display on Astro
+  	const files=['antoine-is-willing-to-burn-it-all-down_fr', 'BroughamReconstructed', 'edition', 'mdl', 'RdCv1n1-en', 'testTEI']
+  	return files.map(file => ({ params: { page: file },}));
 }
+// For dynamic TEI file loading based on the URL parameter
 const { page } = Astro.params;
 const teiFile = (await import(`../tei/${page}.xml?raw`)).default;
-const css = ProcessOddPm();
-const __TEI_BASE_ENABLED__ = true; // or false, depending on your logic
+
+// Process the TEI file to add custom CSS and behaviors
+const pm = new ProcessOddPm();
+
+// This adds the general CSS (CSS that doesn't require javascript for complex behaviours), Not all of the tags are fully complete and have placeholder CSS.
+const css = pm.processElSpecs();
+
+// This adds the  name of a CSS class which should be associated with this element to the element, defined as an attribute of the model in the ODD file. 
+let tei_with_css = pm.supportClass(teiFile);
+
+// Receiving serialized complex behaviors to be passed to the client side for CETEIcean to use
+const serialized = pm.complexBehaviors();
+
+
+const teiData = await processTei(tei_with_css);
+tei_with_css = teiData.serialized.replace(/<([^\s\/]+)([^>]*?)\/>/gm, "<$1$2></$1>");
+
+
+// set to false if don't want to see the custom behaviors applied
+let useBehaviors = true;
+
+const __TEI_BASE_ENABLED__ = true; 
 ---
 <Layout title="Astro TEI demo">
 	<style set:html={css}></style>
-	
 	{__TEI_BASE_ENABLED__ && <TeiBaseStyle/>}
+	<!-- might have to serialize these behaviours to pass them in,  just testing for right now -->
+	<script src="../CETEI.js"></script>
+	<script define:vars={{serialized, tei_with_css}}>
+		// Parse the serialized behaviors JSON string into an object
+		let behaviors = JSON.parse(serialized);
+
+			// console.log("Behaviors Deserialized Object namespaces: ", behaviors.tei);
+			// console.log(typeof(behaviors));
+
+			for (let key in behaviors.tei) {
+				const value = behaviors.tei[key];
+				if (typeof value === 'string' && (value.startsWith('function'))) {
+					console.log(`Converting ${key} to function`);
+					behaviors.tei[key] = eval(`(${value})`);
+				}
+			}
+
+		// keeps turning out to be null possible because the script is running befroe the html inside #tei-container is being rendered 
+		// so we need to add a document event listener, to wait for the DOM to be fully loaded
+		document.addEventListener('DOMContentLoaded', () => {
+			// The div element displaying the page has id "tei-container"
+			const root = document.querySelector("#tei-container");
+			const teiDom = root.firstChild;
+			console.log("Root element: ", root);
+			console.log("TEI DOM: ", teiDom);
+			// We set the useBehaviors to true in the server-side code.
+			if (root.dataset.usebehaviors === "true") {
+				// Creating a new CETEI instance and applying the behaviors
+				const c = new CETEI();
+				c.els = root.dataset.elements?.split(",");
+				c.utilities.dom = teiDom;
+				c.addBehaviors(behaviors);
+				c.applyBehaviors();  
+			}
+		});
+		
+	  </script>
+	
 	<main class="m-auto p-6 max-w-[65ch]">
-		<div class="shadow-2xl bg-amber-50 text-gray-700 p-4 mt-4 rounded-md tei-container">
-			<Tei data={teiFile} /> <!-- Potentially inject CETEIcean behaviors here. Is there any way to bubble up the CETEI instance? Probably not...?  -->
+		<!-- Injecting the complex behaviors and added CSS (according to the ODD file) for rendering by the browser -->
+		<div class="shadow-2xl bg-amber-50 text-gray-700 p-4 mt-4 rounded-md tei-container" id="tei-container" 
+		set:html={tei_with_css} 
+		data-usebehaviors={useBehaviors.toString()}
+		data-elements={teiData.elements.toString()} >
 		</div>
 	</main>
 	

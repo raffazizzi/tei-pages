@@ -17,20 +17,20 @@
     <text>
         <body>
             <schemaSpec start="TEI teiCorpus" ident="teipages">
-                
-                <!-- <elementSpec ident="ab" mode="change">
-                    <model behaviour="paragraph" predicate="ancestor::p">
+                <elementSpec ident="ab" mode="change">
+                    <!-- <model behaviour="paragraph" cssClass="exampleClass" predicate = "false()">
+                        <outputRendition>font-style: italics;</outputRendition>
+                    </model> -->
+                    <model behaviour="link" >
+                    </model>
+                </elementSpec>
+                <elementSpec ident="p" mode="change">
+                    <!-- Added a predicate which is set to true() so the condition passes. It can be replaced by any 
+                    predicate path to work. Can also set it to test if it's working or not. -->
+                    <model behaviour="paragraph" cssClass="exampleClass" predicate = "true()">
                         <outputRendition>font-style: italics;</outputRendition>
                     </model>
-                </elementSpec> -->
-                <p>
-                    <elementSpec ident="ab" mode="change">
-                        <model behaviour="paragraph" predicate="ancestor::p" cssClass="mingyu">
-                            <outputRendition>font-style: italics;</outputRendition>
-                        </model>
-                    </elementSpec>
-                </p>
-                
+                </elementSpec>
                 <elementSpec ident="add" mode="change">
                     <!-- Some CSS somehwere defines:
                         .testitalics {
