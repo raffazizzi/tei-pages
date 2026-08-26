@@ -21,7 +21,7 @@
                     <!-- <model behaviour="paragraph" cssClass="exampleClass" predicate = "false()">
                         <outputRendition>font-style: italics;</outputRendition>
                     </model> -->
-                    <model behaviour="link" >
+                    <model behaviour="link">
                     </model>
                 </elementSpec>
                 <elementSpec ident="p" mode="change">
@@ -38,6 +38,21 @@
                         }    
                     -->
                     <model behaviour="inline" cssClass="testitalics" />
+                </elementSpec>
+
+                <elementSpec ident="choice" mode="change">
+                    <model predicate="sic and corr" behaviour="alternate">
+                        <param name="default" value="corr[1]"/>
+                        <param name="alternate" value="sic[1]"/>
+                    </model>
+                    <model predicate="abbr and expan" behaviour="alternate">
+                        <param name="default" value="expan[1]"/>
+                        <param name="alternate" value="abbr[1]"/>
+                    </model>
+                    <model predicate="orig and reg" behaviour="alternate">
+                        <param name="default" value="reg[1]"/>
+                        <param name="alternate" value="orig[1]"/>
+                    </model>
                 </elementSpec>
             </schemaSpec>
         </body>

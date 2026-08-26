@@ -1,0 +1,98 @@
+---
+// Alternate behavior configuration from the TEI processing output.
+type AlternateBehavior = {
+  name: string;
+  parent: string;
+  default?: string;
+  alternate?: string;
+};
+
+// Props passed from the page: alternate behavior options and TEI container ID.
+const { altBehaviors = [], teiDataId = '' } : { altBehaviors?: AlternateBehavior[]; teiDataId?: string } = Astro.props;
+const showControls = altBehaviors.length > 0;
+---
+
+{showControls ? (
+  <div class="alternate-controls fixed right-0 top-1/2 transform -translate-y-1/2 w-80 max-h-96 bg-blue-50 border border-blue-200 rounded-md shadow-lg p-4 overflow-y-auto z-50">
+    <h3 class="mb-3 text-lg font-semibold text-blue-800">Alternate Content Controls</h3>
+    <form class="space-y-3 text-sm text-blue-600">
+      {altBehaviors.map((behavior) => {
+        return ( <div class="w-full mb-2"> 
+          <input checked
+              type="radio"
+              class="alternate-radio mr-1"
+              name={behavior.name}
+              id={behavior.default}
+              value={behavior.default}
+              data-other={behavior.alternate}
+              data-parent={behavior.parent}
+          /> 
+          <label for={behavior.default}>{behavior.default}</label>
+          &nbsp; &nbsp; 
+          <input 
+              type="radio"
+              class="alternate-radio mr-1"
+              name={behavior.name}
+              id={behavior.alternate}
+              value={behavior.alternate}
+              data-other={behavior.default}
+              data-parent={behavior.parent}
+            />
+          <label for={behavior.alternate}>{behavior.alternate}</label>
+        </div> );
+      })}
+    </form>
+  </div>
+) : null}
+
+<script define:vars={{ altBehaviors, teiDataId }}>
+  // Get the rendered TEI container by ID.
+  const getContainer = () => document.getElementById(teiDataId);
+
+  // Show the selected choice and hide its alternate option.
+  const toggleChoice = (parent, show, hide) => {
+    const container = getContainer();
+    if (!container) return;
+
+    const choiceElements = container.querySelectorAll(`[data-origname="${parent}"]`);
+    const selector = [show, hide].filter(Boolean).map(name => `tei-${CSS.escape(name)}`).join(', ');
+
+    choiceElements.forEach((choiceEl) => {
+      const options = choiceEl.querySelectorAll(selector);
+      options.forEach((optionEl) => {
+        optionEl.style.display = optionEl.tagName.toLowerCase() === `tei-${show}` ? '' : 'none';
+      });
+    });
+  };
+
+  // Wait until the TEI container exists, then wire up radio controls.
+  const init = () => {
+    const container = getContainer();
+    if (!container) {
+      setTimeout(init, 100);
+      return;
+    }
+
+    document.querySelectorAll('.alternate-controls input[type="radio"]').forEach((radio) => {
+      radio.addEventListener('change', () => {
+        const show = radio.value;
+        const hide = radio.getAttribute('data-other');
+        const parent = radio.getAttribute('data-parent');
+        if (parent && show) toggleChoice(parent, show, hide);
+      });
+    });
+
+    // Initialize with the default alternate state.
+    altBehaviors.forEach((behavior) => {
+      if (behavior.default && behavior.alternate) {
+        toggleChoice(behavior.parent, behavior.default, behavior.alternate);
+      }
+    });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+</script>

@@ -15,7 +15,7 @@ import background from '../assets/background.svg';
 			<h2>
 				Here are your links for dynamic routing:
 			</h2>
-			<div id = 'buttons'></div>
+			<div id='buttons'></div>
 			<script>
 				const files = [
 				'antoine-is-willing-to-burn-it-all-down_fr',
@@ -23,19 +23,23 @@ import background from '../assets/background.svg';
 				'edition',
 				'mdl',
 				'RdCv1n1-en',
-				'testTEI'
+				'testTEI',
+				'testAlternate'
 				];
+				
 				let buttons = document.getElementById('buttons');
-				files.forEach(file => {
-					const button = document.createElement("button");
-					button.textContent = file;
-					button.addEventListener("click", () =>{
-						window.location.href = `/${file}`
+				if (buttons) {
+					files.forEach(file => {
+						const button = document.createElement("button");
+						button.textContent = file;
+						button.addEventListener("click", () =>{
+							window.location.href = `/${file}`
+						});
+						buttons.append(button)
+						buttons.append(document.createElement("br"))
 					});
-					buttons.append(button)
-					buttons.append(document.createElement("br"))
-				});</script>
-			
+				}
+			</script>
 		</section>
 	</main>
 

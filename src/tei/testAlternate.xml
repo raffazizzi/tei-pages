@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="testAlternate">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Test Document for Alternate Behavior</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Test file for choice/alternate elements</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital for testing purposes</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>Testing Alternate Behaviors</head>
+      
+      <p>This is a test document with various choice elements for demonstrating alternate content switching.</p>
+      
+      <div>
+        <head>Sic/Corr Examples (Spelling Correction)</head>
+        <p>The manuscript reads <choice>
+          <sic>recieve</sic>
+          <corr>receive</corr>
+        </choice> which is clearly a spelling error.</p>
+        
+        <p>Another example: the text says <choice>
+          <sic>occured</sic>
+          <corr>occurred</corr>
+        </choice> in the original.</p>
+      </div>
+      
+      <div>
+        <head>Abbr/Expan Examples (Abbreviation Expansion)</head>
+        <p>The document contains many abbreviations like <choice>
+          <abbr>Mr.</abbr>
+          <expan>Mister</expan>
+        </choice> and <choice>
+          <abbr>etc.</abbr>
+          <expan>etcetera</expan>
+        </choice> throughout.</p>
+        
+        <p>Scientific texts often use <choice>
+          <abbr>vol.</abbr>
+          <expan>volume</expan>
+        </choice> to save space.</p>
+      </div>
+      
+      <div>
+        <head>Orig/Reg Examples (Regularization)</head>
+        <p>Early modern texts often have variant spellings like <choice>
+          <orig>ye</orig>
+          <reg>the</reg>
+        </choice> or <choice>
+          <orig>honour</orig>
+          <reg>honor</reg>
+        </choice> which are modernized versions.</p>
+        
+        <p>The older form <choice>
+          <orig>connexion</orig>
+          <reg>connection</reg>
+        </choice> was commonly used in the 18th century.</p>
+      </div>
+      
+      <div>
+        <head>Mixed Content</head>
+        <p>This paragraph contains <choice>
+          <sic>recieved</sic>
+          <corr>received</corr>
+        </choice> and also mentions <choice>
+          <abbr>Prof.</abbr>
+          <expan>Professor</expan>
+        </choice> Smith who published his <choice>
+          <orig>connexions</orig>
+          <reg>connections</reg>
+        </choice> to the research.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
